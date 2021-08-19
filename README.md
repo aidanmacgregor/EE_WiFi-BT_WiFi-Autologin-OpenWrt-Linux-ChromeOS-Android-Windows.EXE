@@ -23,18 +23,18 @@ I Advise Using An Android Device & Macrodroid, Set up As Follows
 
 NONE
 
-URLS:
+# Login URLS:
 
-# Secure Page
+## Secure Page
 https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
-# Insecure
+## Insecure
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
 # Logoff Automatically'
 
-# Secure Page
+## Secure Page
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 
-# Insecure
+## Insecure
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
