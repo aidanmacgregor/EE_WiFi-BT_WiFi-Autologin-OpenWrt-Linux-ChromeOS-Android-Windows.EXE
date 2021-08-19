@@ -3,7 +3,17 @@ The URL to automatically log in to BT Wi-Fi Public Hotspots, no need to load the
 
 Logging in is a 1 click process & instant
 
-I Advise Using An Android Device & Macrodroid, Set up As Follows
+### I Advise Using An Android Device & Macrodroid, Set up As Follows
+
+(Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With OpenWRT 
+Configured in Client & Access Point Mode, This allows one device to sign in every device inside my network
+this runs well & downtime is almost non existant, manually logging out and letting it sign itself in 
+didnt break an active download i had running
+
+### Speeds For Me: (You Will Vary)
+Ping Approx. 40 MS
+Download 40 Mbps +
+Upload Approx 17 Mbps
 
 ### Trigger: 
 1 - Every 5 Seconds
@@ -22,6 +32,7 @@ I Advise Using An Android Device & Macrodroid, Set up As Follows
 ### Constraints
 
 NONE
+
 
 # Login URLS:
 
