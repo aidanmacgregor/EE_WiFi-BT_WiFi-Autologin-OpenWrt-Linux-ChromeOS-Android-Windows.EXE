@@ -35,6 +35,7 @@ Upload Approx 17 Mbps
 NONE
 
 # OpenWRT BT Wi-fi Set Up Guide
+Youtube Link:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
 
