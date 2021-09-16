@@ -66,3 +66,5 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 ## Insecure <br/>
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
+
+![BT_WiFi_Automatic_Login_(Share)](https://user-images.githubusercontent.com/11254983/133694503-6597faea-71b6-4b85-8826-3904cc7e5e5d.png)
