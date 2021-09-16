@@ -37,19 +37,25 @@ NONE
 # OpenWRT BT Wi-fi YouTube Guide
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
+# To Leave Rebind Protection On & Set Up Alternatave DNS Servers, Use The insecure URLs as these work without BTs DNS server
+# Im Using Googel DNS on the internal network Chose Network > Interfaces & EDIT the LAN Interface
+# Open DHCP Server Tab & Under DHCP-Options ADD 
+# 6,8.8.8.8
+# And Also
+# 6,8.8.4.4
 
 # Login URLS:
 
-## Secure Page
+## Secure Page (Normal Login, works, Does NOT Work With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = OFF
 https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
-## Insecure
+## Insecure (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
 # Logoff Automatically'
 
-## Secure Page
+## Secure Page (Normal Logoff, works, Does NOT Work With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = OFF
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 
-## Insecure
+## Insecure (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
