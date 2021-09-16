@@ -37,12 +37,13 @@ NONE
 # OpenWRT BT Wi-fi YouTube Guide
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
-# To Leave Rebind Protection On & Set Up Alternatave DNS Servers, Use The insecure URLs as these work without BTs DNS server
-# Im Using Google DNS on the internal network Chose Network > Interfaces & EDIT the LAN Interface
-# Open DHCP Server Tab & Under DHCP-Options ADD 
-# 6,8.8.8.8
-# And Also
-# 6,8.8.4.4
+# To Leave Rebind Protection On & Set Up Alternatave DNS Servers
+Use The insecure URLs as these work without BTs DNS server
+Im Using Google DNS on the internal network Chose Network > Interfaces & EDIT the LAN Interface
+Open DHCP Server Tab & Under DHCP-Options ADD 
+6,8.8.8.8
+And Also
+6,8.8.4.4
 
 # Login URLS:
 
