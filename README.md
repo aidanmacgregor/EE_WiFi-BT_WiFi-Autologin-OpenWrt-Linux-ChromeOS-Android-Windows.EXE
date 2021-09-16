@@ -19,7 +19,7 @@ Upload Approx 17 Mbps
 # OpenWRT BT Wi-fi YouTube Guide
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
-# Login URLS:
+# Login Automatically URLs
 
 ## Secure Page<br/>
 (Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
@@ -30,7 +30,7 @@ https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=P
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON<br/>
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
-# Logoff Automatically'
+# Logoff Automatically URLs
 
 ## Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = OFF
