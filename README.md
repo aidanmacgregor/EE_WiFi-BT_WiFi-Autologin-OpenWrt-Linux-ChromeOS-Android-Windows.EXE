@@ -49,7 +49,7 @@ And Also<br/>
 # Login URLS:
 
 ## Secure Page<br/>
-(Normal Login, works, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
+(Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
 ### DNS Rebind Protection = OFF
 https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
@@ -58,7 +58,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 
 # Logoff Automatically'
 
-## Secure Page (Normal Logoff, works, Does NOT Work With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = OFF
+## Secure Page (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = OFF
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 
 ## Insecure (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON
