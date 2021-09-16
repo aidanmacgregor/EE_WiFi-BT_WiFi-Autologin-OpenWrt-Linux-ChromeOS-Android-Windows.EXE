@@ -1,0 +1,9 @@
+#There are 3 DNS Options
+1. Under DHCP settings in the field "DHCP-Options" with something like 6,192.168.1.15 (for Google DNS & PiHole, for example).
+2. Or putting this in the field called "Use custom DNS servers" in the Interface settings under Common Configuration
+3. Or under DHCP and DNS settings in the DNS Forwardings field
+
+#The Diffrences
+1. tells DHCP clients to use the specified NS instead of the router
+2. tells OpenWrt to ignore upstream (ISP) DNS servers and hardcodes custom ones. Clients will go through OpenWrt's DNS cache
+3. Is rather intented to forward specific domains to specific NS servers, to implement some kind of "DNS routing", e.g. resolve company intranet domains via a different NS only reachable via VPN without having to direct all queries to it.
