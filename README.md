@@ -48,7 +48,8 @@ And Also<br/>
 
 # Login URLS:
 
-## Secure Page (Normal Login, works, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
+## Secure Page<br/>
+(Normal Login, works, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
 ### DNS Rebind Protection = OFF
 https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
