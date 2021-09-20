@@ -1,4 +1,5 @@
 # BT-WiFi-Autologin-URL-WISPr-FON
+<br/> 
 The URL to automatically log in to BT Wi-Fi Public Hotspots, no need to load the log in page & sign in<br/> 
 Edit The URL with your Username &amp; Password (eg: aidan@btinternet.com)
 
@@ -19,8 +20,8 @@ Upload Approx 17 Mbps
 # OpenWRT BT Wi-fi YouTube Guide
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
-# Login Automatically URLs
-
+# Login Automatically URLs<br/>
+It Seems BT Wifi Automaticall Log Off Afte 4 Hours<br/>
 ## Secure Page<br/>
 (Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS)<br/>
 ### DNS Rebind Protection = OFF
@@ -50,4 +51,7 @@ And Also<br/>
 6,8.8.4.4<br/>
 
 # Macrodroid set Up
-![BT_WiFi_Automatic_Login_(Share)](https://user-images.githubusercontent.com/11254983/133694503-6597faea-71b6-4b85-8826-3904cc7e5e5d.png)
+![(Blank)_BT_Wi-Fi_Auto_Login_(No_Browser,_HTTP_GET)_(Secure)_(apple com)](https://user-images.githubusercontent.com/11254983/133949626-0dc76b2a-5046-456f-9e86-a9b212ae1d76.png)
+
+# Macro Download:
+https://bit.ly/bt-wifi-macro
