@@ -50,6 +50,6 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 And Also<br/>
 6,8.8.4.4<br/>
 
-# Macrodroid set Up
-Macro Download: https://bit.ly/bt-wifi-macro
+# Macrodroid set Up<br/>
+Macro Download: https://bit.ly/bt-wifi-macro<br/>
 ![(Blank)_BT_Wi-Fi_Auto_Login_(No_Browser,_HTTP_GET)_(Secure)_(apple com)](https://user-images.githubusercontent.com/11254983/133949626-0dc76b2a-5046-456f-9e86-a9b212ae1d76.png)
