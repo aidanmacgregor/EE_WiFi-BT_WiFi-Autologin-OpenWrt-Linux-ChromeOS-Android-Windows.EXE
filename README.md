@@ -41,6 +41,9 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS) DNS Rebind Protection = ON
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
+# Alternative Using wget
+wget -q -O /dev/null --post-data "username=USER@btinternet.com&password=PASS" https://www.btopenzone.com:8443/tbbLogon
+
 # To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network<br/>
