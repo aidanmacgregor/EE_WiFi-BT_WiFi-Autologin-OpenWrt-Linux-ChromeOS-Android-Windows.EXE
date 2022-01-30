@@ -43,10 +43,17 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 # Alternative Using wget
 ## Secure <br/>
-wget -q -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btopenzone.com:8443/tbbLogon
+### 1
+wget -O /dev/null https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
+### 2
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon
 
 ## Insecure <br/>
+### 1 <br/>
+wget --no-check-certificate -O /dev/null https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
+### 2 <br/>
 wget --no-check-certificate -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon
+
 
 # To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 Use The insecure URLs as these work without BTs DNS server<br/>
