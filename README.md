@@ -64,4 +64,4 @@ Macro Download: https://bit.ly/bt-wifi-macro<br/>
 # URLs that can be used intechangably <br/>
 https://www.btwifi.com:8443 <br/>
 https://www.btopenzone.com:8443 <br/>
-192.168.23.21:8443 <br/>
+https://192.168.23.21:8443 <br/>
