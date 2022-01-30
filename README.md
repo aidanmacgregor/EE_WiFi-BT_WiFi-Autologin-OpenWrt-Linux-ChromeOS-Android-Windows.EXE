@@ -37,7 +37,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 ## Insecure <br/>
 wget --no-check-certificate -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon
 
-# Logoff Automatically URLs
+# Instant Logoff URLs
 
 ## Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF) <br/>
