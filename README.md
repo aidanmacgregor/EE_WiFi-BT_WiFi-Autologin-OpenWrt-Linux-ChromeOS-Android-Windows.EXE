@@ -32,15 +32,9 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 
 # Alternative Using wget
 ## Secure <br/>
-### 1 <br/>
-wget -O /dev/null https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
-### 2 <br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon
 
 ## Insecure <br/>
-### 1 <br/>
-wget --no-check-certificate -O /dev/null https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
-### 2 <br/>
 wget --no-check-certificate -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon
 
 # Logoff Automatically URLs
