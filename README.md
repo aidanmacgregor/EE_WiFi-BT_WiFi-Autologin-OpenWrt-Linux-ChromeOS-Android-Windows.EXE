@@ -20,7 +20,7 @@ Upload Approx 17 Mbps
 # OpenWRT BT Wi-fi YouTube Guide <br/>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
-# Login Automatically URLs<br/>
+# Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
 These work in a browser & inside Macrodroid
 ## Secure Page <br/>
 (Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF)<br/>
@@ -30,14 +30,28 @@ https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=P
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
-# Alternative Using wget
-## Secure <br/>
-wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon
+# Alternative Using HTTP POST & Wget
+## Secure (With SSL Cert) <br/>
+BT Home Broadband:<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon<br/>
+<br/>
+Bt WiFi (Pay & Go)<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante<br/>
+<br/>
+Bt Buisness Broadband
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
-## Insecure <br/>
-wget --no-check-certificate -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon
+## Insecure (Must Allow Any Certificate)( <br/>
+BT Home Broadband:<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
+<br/>
+Bt WiFi (Pay & Go)<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante<br/>
+<br/>
+Bt Buisness Broadband<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
-# Instant Logoff URLs
+# Instant Logoff URLs<br/>
 
 ## Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF) <br/>
@@ -59,7 +73,10 @@ And Also<br/>
 
 # Macrodroid set Up <br/>
 Macro Download: https://bit.ly/bt-wifi-macro<br/>
-![(Blank)_BT_Wi-Fi_Auto_Login_(No_Browser,_HTTP_GET)_(Secure)_(apple com)](https://user-images.githubusercontent.com/11254983/133949626-0dc76b2a-5046-456f-9e86-a9b212ae1d76.png)
+![Screenshot_20220410-032016_MacroDroid](https://user-images.githubusercontent.com/11254983/162598443-d527c237-723d-4d8e-8c55-478383d99e75.png)
+![Screenshot_20220410-032030_MacroDroid](https://user-images.githubusercontent.com/11254983/162598444-41731a18-8df9-4a79-b665-d4ffc278e7ab.png)
+![Screenshot_20220410-032034_MacroDroid](https://user-images.githubusercontent.com/11254983/162598446-c9d78889-e7a0-441e-a440-cbaf6a2d73db.png)
+
 
 # URLs that can be used intechangably <br/>
 https://www.btwifi.com:8443 <br/>
