@@ -67,10 +67,8 @@ Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
-6,8.8.8.8<br/>
-And Also<br/>
-6,8.8.4.4<br/>
-
+6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
+<br/>
 # Macrodroid set Up <br/>
 Macro Download: https://bit.ly/bt-wifi-macro<br/>
 ![Screenshot_20220410-032016_MacroDroid](https://user-images.githubusercontent.com/11254983/162598443-d527c237-723d-4d8e-8c55-478383d99e75.png)
