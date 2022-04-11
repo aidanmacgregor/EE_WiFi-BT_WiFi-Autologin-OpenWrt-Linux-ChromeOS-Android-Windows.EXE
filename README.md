@@ -64,7 +64,7 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 # To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 Use The insecure URLs as these work without BTs DNS server<br/>
-Im Using Google DNS on the internal network To Remove Forced Google Safe Searchg<br/>
+Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
