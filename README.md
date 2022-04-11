@@ -64,19 +64,14 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 # To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 Use The insecure URLs as these work without BTs DNS server<br/>
-Im Using Google DNS on the internal network<br/>
+Im Using Google DNS on the internal network To Remove Forced Google Safe Searchg<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
 <br/>
-# Macrodroid set Up <br/>
-Macro Download: https://bit.ly/bt-wifi-macro<br/>
-![Screenshot_20220410-032016_MacroDroid](https://user-images.githubusercontent.com/11254983/162598443-d527c237-723d-4d8e-8c55-478383d99e75.png)
-![Screenshot_20220410-032030_MacroDroid](https://user-images.githubusercontent.com/11254983/162598444-41731a18-8df9-4a79-b665-d4ffc278e7ab.png)
-![Screenshot_20220410-032034_MacroDroid](https://user-images.githubusercontent.com/11254983/162598446-c9d78889-e7a0-441e-a440-cbaf6a2d73db.png)
+# Macrodroid set Up<br/>
+Now Availible In The Macrodroid Template Store!<br/>
+![Template](https://user-images.githubusercontent.com/11254983/162731117-63c81601-6075-4383-b953-1eedb6697ebc.png)
+![Macro](https://user-images.githubusercontent.com/11254983/162731163-7703599f-3c18-4aa8-aaf9-e3121592debc.png)
+Manual Macro Download: https://bit.ly/bt-wifi-macro<br/>
 
-
-# URLs that can be used intechangably <br/>
-https://www.btwifi.com:8443 <br/>
-https://www.btopenzone.com:8443 <br/>
-https://192.168.23.21:8443 <br/>
