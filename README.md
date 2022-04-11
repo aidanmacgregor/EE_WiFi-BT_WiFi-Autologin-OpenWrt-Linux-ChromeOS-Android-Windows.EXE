@@ -71,7 +71,7 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
 # Macrodroid set Up<br/>
 Now Availible In The Macrodroid Template Store!<br/>
-![Template](https://user-images.githubusercontent.com/11254983/162732928-27fa7882-2115-4912-b886-ae7e76809c88.png)
+![Template](https://user-images.githubusercontent.com/11254983/162732928-27fa7882-2115-4912-b886-ae7e76809c88.png)<br/>
 The Macro
 ![Macro](https://user-images.githubusercontent.com/11254983/162732961-4f0ed33c-ea84-4cef-b4ca-e4c3de541f44.png)
 
