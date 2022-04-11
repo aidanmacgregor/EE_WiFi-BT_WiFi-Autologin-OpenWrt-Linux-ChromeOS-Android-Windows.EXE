@@ -71,8 +71,8 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
 # Macrodroid set Up<br/>
 Now Availible In The Macrodroid Template Store!<br/>
-![Template](https://user-images.githubusercontent.com/11254983/162731952-42980434-2213-4ee3-be41-8c3f2fd7f6b2.png)
-![Macro](https://user-images.githubusercontent.com/11254983/162731960-3b21a925-61cb-4b80-b3d1-351eb5dc5540.png)
+![Template](https://user-images.githubusercontent.com/11254983/162732928-27fa7882-2115-4912-b886-ae7e76809c88.png)
+![Macro](https://user-images.githubusercontent.com/11254983/162732961-4f0ed33c-ea84-4cef-b4ca-e4c3de541f44.png)
 
 Manual Macro Download: https://bit.ly/bt-wifi-macro<br/>
 
