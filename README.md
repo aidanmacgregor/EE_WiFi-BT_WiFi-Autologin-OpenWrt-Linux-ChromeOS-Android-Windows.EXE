@@ -75,7 +75,7 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
 # The Macro<br/>
 Variables Tab (Ajust Settings & Add Account Here)<br/>
-![1 Screenshot_20220412-122923_MacroDroid_copy_648x1440 (2)](https://user-images.githubusercontent.com/11254983/163034098-5f6895a6-1c1c-44d7-9dbe-61c660d230fb.png<br/>
+![1 Screenshot_20220412-122923_MacroDroid_copy_648x1440 (2)](https://user-images.githubusercontent.com/11254983/163034098-5f6895a6-1c1c-44d7-9dbe-61c660d230fb.png)<br/>
 <br/>
 # Main Macro<br/>
 ![2 Screenshot_20220412-122856_MacroDroid](https://user-images.githubusercontent.com/11254983/163034820-3abc3c5f-cd50-413f-9bd9-67070f5a9ca8.jpg)<br/>
