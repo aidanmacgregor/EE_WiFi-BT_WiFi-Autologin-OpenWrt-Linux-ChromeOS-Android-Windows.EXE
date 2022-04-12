@@ -69,11 +69,21 @@ Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
 <br/>
-# Macrodroid set Up<br/>
-Now Availible In The Macrodroid Template Store!<br/>
+### Macrodroid set Up<br/>
+# Template Availible In The Macrodroid Template Store!<br/>
 ![Template](https://user-images.githubusercontent.com/11254983/162732928-27fa7882-2115-4912-b886-ae7e76809c88.png)<br/>
-The Macro<br/>
-![Macro](https://user-images.githubusercontent.com/11254983/162732961-4f0ed33c-ea84-4cef-b4ca-e4c3de541f44.png)
-
+<br/>
+# The Macro<br/>
+Variables Tab (Ajust Settings & Add Account Here)<br/>
+![1 Screenshot_20220412-122923_MacroDroid_copy_648x1440 (2)](https://user-images.githubusercontent.com/11254983/163034098-5f6895a6-1c1c-44d7-9dbe-61c660d230fb.png<br/>
+<br/>
+# Main Macro<br/>
+![2 Screenshot_20220412-122856_MacroDroid](https://user-images.githubusercontent.com/11254983/163034820-3abc3c5f-cd50-413f-9bd9-67070f5a9ca8.jpg)<br/>
+<br/>
+# HTTP POST Request<br/>
+![3 Screenshot_20220412-123013_MacroDroid](https://user-images.githubusercontent.com/11254983/163034409-5751704c-937f-4461-9342-fe42f943fb53.jpg)<br/>
+<br/>
+# HTTP POST Body<br/>
+![4  Screenshot_20220412-123022_MacroDroid_copy_648x1440](https://user-images.githubusercontent.com/11254983/163034412-4e559a75-585d-4368-a9d5-3ab1d91de674.png)<br/>
+<br/>
 Manual Macro Download: https://bit.ly/bt-wifi-macro<br/>
-
