@@ -73,8 +73,7 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 # Template Availible In The Macrodroid Template Store!<br/>
 ![Template](https://user-images.githubusercontent.com/11254983/162732928-27fa7882-2115-4912-b886-ae7e76809c88.png)<br/>
 <br/>
-# The Macro<br/>
-Variables Tab (Ajust Settings & Add Account Here)<br/>
+# Variables Tab (Ajust Settings & Add Account Here)<br/>
 ![1 Screenshot_20220412-122923_MacroDroid_copy_648x1440 (2)](https://user-images.githubusercontent.com/11254983/163034098-5f6895a6-1c1c-44d7-9dbe-61c660d230fb.png)<br/>
 <br/>
 # Main Macro<br/>
