@@ -74,11 +74,11 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 ![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg)
 <br/>
 # Main Macro<br/>
-<br/>
+![2  Screenshot_20220415-230329_MacroDroid_copy_640x6225](https://user-images.githubusercontent.com/11254983/163649196-6d36793d-7038-4684-b65e-305aaa9dc821.jpg)
 <br/>
 # Variables Tab (Ajust Settings & Add Account Here)<br/>
-!<br/>
-!<br/>
+![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png)
+<br/>
 # HTTP POST Request<br/>
 ![3 Screenshot_20220412-123013_MacroDroid](https://user-images.githubusercontent.com/11254983/163034409-5751704c-937f-4461-9342-fe42f943fb53.jpg)<br/>
 <br/>
