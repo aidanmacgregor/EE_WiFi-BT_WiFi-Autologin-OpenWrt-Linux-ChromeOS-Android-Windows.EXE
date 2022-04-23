@@ -1,4 +1,4 @@
-![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164934909-cb79946d-fd92-4662-a84a-7a6fa2394e78.png)
+![Untitled-1](https://user-images.githubusercontent.com/11254983/164936412-a19d16c5-adaa-4061-a074-6280bfb92873.png)
 <br/> 
 <br/> 
 <br/> 
