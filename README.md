@@ -5,10 +5,10 @@
 <br/> 
 
 
-The URL to automatically log in to BT Wi-Fi Public Hotspots, no need to load the log in page & sign in<br/> 
-Edit The URL with your Username &amp; Password (eg: aidan@btinternet.com)
-
-Logging in is a 1 click process & instant OR automatic if uuising Macrodroid (Free)
+Therse Atr The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/> 
+There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
+If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
+If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
