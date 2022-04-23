@@ -1,4 +1,9 @@
-# BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWrt
+## BT Wi-Fi Autologin MACRODROID-WISPr-HTTP POST-HTTP GET-OpenWrt
+![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164937155-679db244-df83-4aa6-a6f2-9a3fee0dfad7.png)
+<br/> 
+<br/> 
+<br/> 
+
 
 The URL to automatically log in to BT Wi-Fi Public Hotspots, no need to load the log in page & sign in<br/> 
 Edit The URL with your Username &amp; Password (eg: aidan@btinternet.com)
