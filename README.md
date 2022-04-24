@@ -65,6 +65,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
 </details>
+
 <br/>
 <br/>
 
@@ -82,6 +83,7 @@ https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=P
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
  
 </details>
+
 <br/>
 <br/>
 
@@ -98,7 +100,8 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
-</details> 
+</details>
+
 <br/>
 <br/>
 
