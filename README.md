@@ -51,7 +51,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 Bt Buisness Broadband
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
-## Insecure (Must Allow Any Certificate)( <br/>
+## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure (Must Allow Any Certificate)( <br/>
 BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
 <br/>
@@ -63,11 +63,11 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 
 # Instant Logoff URLs<br/>
 
-## Secure Page <br/>
+## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF) <br/>
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 
-## Insecure <br/>
+## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure <br/>
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
