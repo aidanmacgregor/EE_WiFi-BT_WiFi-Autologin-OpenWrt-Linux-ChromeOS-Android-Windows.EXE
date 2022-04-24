@@ -3,7 +3,7 @@
 
 ### Generel Information<br/>
 
-The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network
+The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br/>
 - Pay & Go On Demand (1 Hour To 30 Days)
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
@@ -11,7 +11,7 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network
 Therse Ate The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/>
 There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
-If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account
+If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account<br/>
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
@@ -23,12 +23,12 @@ manually logging out and letting it sign itself in didnt break an active downloa
 ### Speeds For Me: (You Will Vary) <br/>
 - Ping Approx. 40 MS<br/>
 - Download 40 Mbps +<br/>
-- Upload Approx 17 Mbps
+- Upload Approx 17 Mbps<br/>
 
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
-
+<br/>
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
 
 <details>
