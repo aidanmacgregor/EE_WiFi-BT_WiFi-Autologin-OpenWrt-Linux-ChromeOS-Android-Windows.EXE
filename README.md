@@ -143,12 +143,3 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 
   </details>
 
-# ![2528830](https://user-images.githubusercontent.com/11254983/164993691-71b941bb-e436-42b4-999c-752e24b63050.png) OpenWrt Setup<br/>
-  
-<details>
-  <summary>Click to expand!</summary>
-  
- Wip!
-  
-  </details>
-
