@@ -139,7 +139,6 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
   <summary>Click to expand!</summary>
 
 ![4  Screenshot_20220412-123022_MacroDroid_copy_648x1440](https://user-images.githubusercontent.com/11254983/163034412-4e559a75-585d-4368-a9d5-3ab1d91de674.png)<br/>
-<br/>
 
   </details>
 
