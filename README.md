@@ -44,27 +44,27 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 <br/>
   
 - BT Buisness Broadband:<br/>
-wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb <br/>
 
-## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP POST (Must Allow Any Certificate)( <br/>
+## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP POST (Must Allow Any Certificate) <br/>
   
 - BT Home Broadband:<br/>
-wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon <br/>
 <br/>
   
 - BT Wi-Fi (Pay & Go):<br/>
-wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante <br/>
 <br/>
   
 - BT Buisness Broadband:<br/>
-wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
+wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb <br/>
 
 </details>
 
  <br/>
  <br/>
 
-# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin HTTP GET & Browser URL<br/>
+# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin HTTP GET & Browser URL <br/>
 
 <details>
   <summary>Click to expand!</summary>
@@ -82,7 +82,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
  <br/>
  <br/>
 
-# ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff URLs (Instant)<br/>
+# ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff URLs (Instant) <br/>
 
 <details>
   <summary>Click to expand!</summary>
@@ -100,22 +100,26 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
  <br/>
  <br/>
 
-# ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
+# ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup<br/>
 
 <details>
   <summary>Click to expand!</summary>
 
-## Template Availible In The Macrodroid Template Store! <br/>
+## Template Availible In The Macrodroid Template Store!
+<br/>
+
 ![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg) <br/>
 
-## Variables Tab (Ajust Settings & Add Account Here) <br/>
+## Variables Tab (Ajust Settings & Add Account Here)
+<br/>
+
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
-## Main Macro<br/>
+## Main Macro
 
 <details>
   <summary>Click to expand!</summary>
-
+  
 ![2  Screenshot_20220415-230329_MacroDroid_copy_640x6225](https://user-images.githubusercontent.com/11254983/163649196-6d36793d-7038-4684-b65e-305aaa9dc821.jpg)
 <br/>
 
@@ -131,7 +135,7 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
   </details>
 
-## HTTP POST Body<br/>
+## HTTP POST Body
 
 <details>
   <summary>Click to expand!</summary>
@@ -168,15 +172,33 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 <br/>
 
-- Rebind Protection Needs To Be "OFF" To Load The Login Page Using "btwifi.com:8443"
-- To Use Rebind Protection "ON" (OpenWrt Default) Use The Insecure URLs "192.168.23.21:8443"
+- Rebind Protection Needs To Be "OFF" To Load The Login Page Using Browser "btwifi.com:8443"
+- To Use Rebind Protection "ON" (OpenWrt Default) Use The Insecure URLs (Cert Warning) "192.168.23.21:8443"
+- "Use Custom DNS Servers" Affects Android (Wi-Fi) Automatically Geting Google DNS Via DHCP
+- "DHCP-Options" Affects Windows (Ethernet) Automatically Geting Google DNS Via DHCP
+  
 <br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
-Chose Network > Interfaces & EDIT the LAN Interface<br/>
-Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
 
-- 6,8.8.8.8,8.8.4.4 (LEDE/OpenWrt 17.x)<br/>
+- Chose Network > Interfaces From The Menu
+- EDIT the LAN Interface<br/>
+ 
+ ![lan](https://user-images.githubusercontent.com/11254983/164999146-b1a85ec5-9752-4e56-ab6c-ceb4c969327b.JPG)
+
+- Find "Use custom DNS servers" Add<br/>
+8.8.8.8 & 8.8.4.4<br/>
+  
+![DHCP GEN](https://user-images.githubusercontent.com/11254983/164999416-b8b8ca43-272d-47a3-a106-2e3165c0fdad.JPG)
+
+- Open DHCP Server Tab, Advanced
+  
+![DHCP ADV BAR](https://user-images.githubusercontent.com/11254983/164999274-0c193757-6404-47ff-8b74-9e555c0dc326.JPG)
+  
+ - Under DHCP-Options ADD<br/>
+6,8.8.8.8,8.8.4.4<br/>
+ 
+ ![DHCP ADV](https://user-images.githubusercontent.com/11254983/164999225-05066ac7-f35a-4ea2-9b5f-5c237458e56a.JPG)
 
 </details>
 
