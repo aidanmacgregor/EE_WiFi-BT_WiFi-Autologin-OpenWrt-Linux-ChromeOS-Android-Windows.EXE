@@ -1,12 +1,14 @@
 ![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164937155-679db244-df83-4aa6-a6f2-9a3fee0dfad7.png)<br/> 
 ## BT Wi-Fi Autologin MACRODROID - WISPr - HTTP POST - HTTP GET - Android - OpenWrt
+
 ### Generel Information<br/>
+
 The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network
 - Pay & Go On Demand (1 Hour To 30 Days)
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
 
-Therse Ate The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/> 
+Therse Ate The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/>
 There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
 If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account
@@ -29,7 +31,7 @@ Upload Approx 17 Mbps
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand!</summary><br/>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page <br/>
 (Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF)<br/>
@@ -44,7 +46,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Alternative Using HTTP POST & Wget
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand!</summary><br/>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure (With SSL Cert) <br/>
 BT Home Broadband:<br/>
@@ -88,9 +90,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 # ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 
 <details>
-  <summary>Click to expand!</summary>
-  
-  <br/>
+  <summary>Click to expand!</summary><br/>
+ 
 Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
@@ -98,8 +99,6 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
  
   </details>
-  
-  <br/>
   
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid set Up<br/>
 
