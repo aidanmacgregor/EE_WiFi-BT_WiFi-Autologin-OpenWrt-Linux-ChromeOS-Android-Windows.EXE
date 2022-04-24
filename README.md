@@ -27,7 +27,8 @@ Upload Approx 17 Mbps
 
 
 
-# OpenWRT BT Wi-fi YouTube Guide <br/>
+# ![hd-youtube-logo-background-background-youtube-logo-symbol-trademark-triangle-first-aid-transparent-png-1491549](https://user-images.githubusercontent.com/11254983/164994653-e25c55a4-cfe5-4263-a340-8965004ac5b6.png) OpenWRT BT Wi-fi YouTube Guide <br/>
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
 
