@@ -109,6 +109,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 <details>
   <summary>Click to expand!</summary>
+  
+  <br/>
 
 ## Template Availible In The Macrodroid Template Store!<br/>
 ![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg)
