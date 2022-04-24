@@ -8,7 +8,7 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
 
-Therse Ate The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/>
+Therse Are The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/>
 There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
 If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account<br/>
@@ -36,15 +36,14 @@ manually logging out and letting it sign itself in didnt break an active downloa
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure HTTP POST (With SSL Cert) <br/>
 - BT Home Broadband:<br/>
-  
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon<br/>
 <br/>
   
-- Bt WiFi (Pay & Go)<br/>
+- BT Wi-Fi (Pay & Go):<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante<br/>
 <br/>
   
-- Bt Buisness Broadband
+- BT Buisness Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP POST (Must Allow Any Certificate)( <br/>
@@ -53,15 +52,17 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
 <br/>
   
-- Bt WiFi (Pay & Go)<br/>
+- BT Wi-Fi (Pay & Go):<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante<br/>
 <br/>
   
-- Bt Buisness Broadband<br/>
+- BT Buisness Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
 </details>
 
+ <br/>
+ <br/>
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin HTTP GET & Browser URL<br/>
 
@@ -78,6 +79,9 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
  
 </details>
 
+ <br/>
+ <br/>
+
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff URLs (Instant)<br/>
 
 <details>
@@ -92,6 +96,9 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details>
+
+ <br/>
+ <br/>
 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
@@ -135,6 +142,9 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
   
    </details>
    
+ <br/>
+ <br/>
+   
    
   
  # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup <br/>
@@ -142,30 +152,31 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
  <details>
   <summary>Click to expand!</summary>
   
+  <br/>
   In Progress<br/>
+  <br/>
   
 </details>
+
+ <br/>
+ <br/>
   
- ## ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
+ ## ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Rebind Protection & Alternatave DNS (Safesearch Remove)
  
  <details>
   <summary>Click to expand!</summary>
 
-Use The insecure URLs as these work without BTs DNS server<br/>
+<br/>
+
+- Rebind Protection Needs To Be "OFF" To Load The Login Page Using "btwifi.com:8443"
+- To Use Rebind Protection "ON" (OpenWrt Default) Use The Insecure URLs "192.168.23.21:8443"
+<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
-- 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
 
-</details>
-
-# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
-
-<details>
-  <summary>Click to expand!</summary>
-
-TEST
+- 6,8.8.8.8,8.8.4.4 (LEDE/OpenWrt 17.x)<br/>
 
 </details>
 
