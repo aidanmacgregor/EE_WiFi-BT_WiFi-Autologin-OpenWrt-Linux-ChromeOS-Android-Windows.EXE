@@ -103,19 +103,35 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
   <br/>
   
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid set Up<br/>
-# Template Availible In The Macrodroid Template Store!<br/>
+
+## Template Availible In The Macrodroid Template Store!<br/>
 ![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg)
 <br/>
-# Variables Tab (Ajust Settings & Add Account Here)<br/>
+
+## Variables Tab (Ajust Settings & Add Account Here)<br/>
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png)
 <br/>
-# Main Macro<br/>
+
+## Main Macro<br/>
+
+<details>
+  <summary>Click to expand!</summary>
+
 ![2  Screenshot_20220415-230329_MacroDroid_copy_640x6225](https://user-images.githubusercontent.com/11254983/163649196-6d36793d-7038-4684-b65e-305aaa9dc821.jpg)
 <br/>
-# HTTP POST Request<br/>
+
+   </details>
+
+## HTTP POST Request<br/>
 ![3 Screenshot_20220412-123013_MacroDroid](https://user-images.githubusercontent.com/11254983/163034409-5751704c-937f-4461-9342-fe42f943fb53.jpg)<br/>
 <br/>
-# HTTP POST Body<br/>
+
+  </details>
+
+## HTTP POST Body<br/>
 ![4  Screenshot_20220412-123022_MacroDroid_copy_648x1440](https://user-images.githubusercontent.com/11254983/163034412-4e559a75-585d-4368-a9d5-3ab1d91de674.png)<br/>
 <br/>
-Manual Macro Download: https://bit.ly/bt-wifi-macro<br/>
+
+  </details>
+
+
