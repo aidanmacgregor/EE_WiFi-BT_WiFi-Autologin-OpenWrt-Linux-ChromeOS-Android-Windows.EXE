@@ -27,7 +27,7 @@ manually logging out and letting it sign itself in didnt break an active downloa
 
 
 
-# ![youtube-logo-png-46031](https://user-images.githubusercontent.com/11254983/164994742-9f245d4d-0285-4258-8b48-44d1b37190b8.png) OpenWRT BT Wi-fi YouTube Guide<br/>
+# ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
