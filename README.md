@@ -26,7 +26,7 @@ manually logging out and letting it sign itself in didnt break an active downloa
 - Upload Approx 17 Mbps
 <br/>
 <br/>
-<br/>
+
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
