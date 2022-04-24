@@ -102,6 +102,9 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
   
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
+<details>
+  <summary>Click to expand!</summary>
+
 ## Template Availible In The Macrodroid Template Store!<br/>
 ![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg)
 <br/>
@@ -138,6 +141,8 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 ![4  Screenshot_20220412-123022_MacroDroid_copy_648x1440](https://user-images.githubusercontent.com/11254983/163034412-4e559a75-585d-4368-a9d5-3ab1d91de674.png)<br/>
 
   </details>
+  
+   </details>
   
  # OpenWrt Setup
   
