@@ -24,14 +24,10 @@ manually logging out and letting it sign itself in didnt break an active downloa
 - Ping Approx. 40 MS<br/>
 - Download 40 Mbps +<br/>
 - Upload Approx 17 Mbps
-<br/>
-<br/>
 
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
-<br/>
-<br/>
 
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
 
@@ -66,8 +62,6 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 
 </details>
 
-<br/>
-<br/>
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin HTTP GET & Browser URL<br/>
 
@@ -84,9 +78,6 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
  
 </details>
 
-<br/>
-<br/>
-
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff URLs (Instant)<br/>
 
 <details>
@@ -101,9 +92,6 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details>
-
-<br/>
-<br/>
 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
@@ -125,8 +113,6 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 <br/>
 
    </details>
-<br/>
-<br/>
    
   ## HTTP POST Request<br/>
    
@@ -174,5 +160,12 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 
 </details>
 
- 
+# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
+
+<details>
+  <summary>Click to expand!</summary>
+
+TEST
+
+</details>
   
