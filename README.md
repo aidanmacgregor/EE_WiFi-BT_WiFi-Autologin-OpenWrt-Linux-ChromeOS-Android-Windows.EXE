@@ -27,6 +27,7 @@ Upload Approx 17 Mbps
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
+
 <details>
   <summary>Click to expand!</summary>
 
