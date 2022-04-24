@@ -144,5 +144,12 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
   
    </details>
   
- # OpenWrt Setup
+ # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup<br/>
+ 
+ <details>
+  <summary>Click to expand!</summary>
+  
+  In Progress
+  
+  </details>
   
