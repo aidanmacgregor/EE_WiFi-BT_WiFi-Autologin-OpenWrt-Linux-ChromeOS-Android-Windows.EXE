@@ -71,6 +71,9 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
  
 # Instant Logoff URLs<br/>
 
+<details>
+  <summary>Click to expand!</summary>
+
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF) <br/>
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
@@ -79,13 +82,21 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 (SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
-
+</details> 
+  
 # ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
+
+<details>
+  <summary>Click to expand!</summary>
+  
 Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
+ 
+  </details>
+  
 <br/>
  # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid set Up<br/>
 # Template Availible In The Macrodroid Template Store!<br/>
