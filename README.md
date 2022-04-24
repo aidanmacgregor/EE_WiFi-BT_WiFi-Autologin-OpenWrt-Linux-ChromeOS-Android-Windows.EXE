@@ -21,9 +21,9 @@ this runs well & downtime is almost non existant <br/>
 manually logging out and letting it sign itself in didnt break an active download i had running
 
 ### Speeds For Me: (You Will Vary) <br/>
-Ping Approx. 40 MS<br/>
-Download 40 Mbps +<br/>
-Upload Approx 17 Mbps
+- Ping Approx. 40 MS<br/>
+- Download 40 Mbps +<br/>
+- Upload Approx 17 Mbps
 
 
 
@@ -39,23 +39,23 @@ Upload Approx 17 Mbps
   <summary>Click to expand!</summary><br/>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure (With SSL Cert) <br/>
-BT Home Broadband:<br/>
+- BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon<br/>
 <br/>
-Bt WiFi (Pay & Go)<br/>
+- Bt WiFi (Pay & Go)<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante<br/>
 <br/>
-Bt Buisness Broadband
+- Bt Buisness Broadband
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure (Must Allow Any Certificate)( <br/>
-BT Home Broadband:<br/>
+- BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
 <br/>
-Bt WiFi (Pay & Go)<br/>
+- Bt WiFi (Pay & Go)<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante<br/>
 <br/>
-Bt Buisness Broadband<br/>
+- Bt Buisness Broadband<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
 </details>
@@ -105,12 +105,13 @@ Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
 Open DHCP Server Tab & Under DHCP-Options ADD<br/>
+  
 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
- 
+
   </details>
-  
-  
  
+ 
+
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
 <details>
