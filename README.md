@@ -105,20 +105,16 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 <br/>
 <br/>
 
-# ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup <br/>
+# ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
 <details>
-  <summary>Click to expand!</summary> <br/> <br/>
-  
-  <br/>
+  <summary>Click to expand!</summary>
 
 ## Template Availible In The Macrodroid Template Store! <br/>
-![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg)
-<br/>
+![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg) <br/>
 
 ## Variables Tab (Ajust Settings & Add Account Here) <br/>
-![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png)
-<br/>
+![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
 ## Main Macro<br/>
 
