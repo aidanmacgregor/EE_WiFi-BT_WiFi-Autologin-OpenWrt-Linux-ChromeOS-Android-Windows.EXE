@@ -1,7 +1,6 @@
+![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164937155-679db244-df83-4aa6-a6f2-9a3fee0dfad7.png)<br/> 
 ## BT Wi-Fi Autologin MACRODROID - WISPr - HTTP POST - HTTP GET - Android - OpenWrt
-![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164937155-679db244-df83-4aa6-a6f2-9a3fee0dfad7.png)
-<br/> 
-<br/> 
+<br/>
 <br/> 
 
 The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network
