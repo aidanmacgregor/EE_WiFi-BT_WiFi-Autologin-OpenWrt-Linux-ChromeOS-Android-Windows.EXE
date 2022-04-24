@@ -25,23 +25,12 @@ Ping Approx. 40 MS<br/>
 Download 40 Mbps +<br/>
 Upload Approx 17 Mbps
 
+
+
 # OpenWRT BT Wi-fi YouTube Guide <br/>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 
-# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
 
-<details>
-  <summary>Click to expand!</summary><br/>
-
-## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page <br/>
-(Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF)<br/>
-https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
-
-## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure Page <br/>
-(SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
-https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
- 
-</details>
 
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Alternative Using HTTP POST & Wget
 
@@ -58,8 +47,6 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 Bt Buisness Broadband
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
- 
- 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure (Must Allow Any Certificate)( <br/>
 BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
@@ -70,8 +57,27 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 Bt Buisness Broadband<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
-</details> 
+</details>
+
+
+
+# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
+
+<details>
+  <summary>Click to expand!</summary><br/>
+
+## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page <br/>
+(Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF)<br/>
+https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
+
+## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure Page <br/>
+(SSL Error in Browser, but still works, Works With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection ON) <br/>
+https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
  
+</details>
+
+
+
 # Instant Logoff URLs<br/>
 
 <details>
@@ -87,6 +93,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details> 
   
+  
+  
 # ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 
 <details>
@@ -100,6 +108,8 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
  
   </details>
   
+  
+ 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup<br/>
 
 <details>
@@ -143,6 +153,8 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
   </details>
   
    </details>
+   
+   
   
  # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup<br/>
  
