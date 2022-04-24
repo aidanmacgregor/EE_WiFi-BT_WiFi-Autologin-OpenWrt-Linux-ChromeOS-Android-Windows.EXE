@@ -155,12 +155,13 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
   
   In Progress<br/>
   
-   <details>
+</details>
   
  ## ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
  
+ <details>
   <summary>Click to expand!</summary>
-  
+
 Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
@@ -168,7 +169,7 @@ Open DHCP Server Tab & Under DHCP-Options ADD<br/>
 <br/>
 - 6,8.8.8.8,8.8.4.4 (LEDE 17)<br/>
 
-   <details>
+</details>
 
  
   
