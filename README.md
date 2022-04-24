@@ -32,7 +32,7 @@ Upload Approx 17 Mbps
 
 
 
-# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Alternative Using HTTP POST & Wget
+# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
 
 <details>
   <summary>Click to expand!</summary><br/>
@@ -61,7 +61,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 
 
 
-# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Login Automatically URLs (HTTP GET & Browser URL Bar)<br/>
+# ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin (HTTP GET & Browser URL)<br/>
 
 <details>
   <summary>Click to expand!</summary><br/>
