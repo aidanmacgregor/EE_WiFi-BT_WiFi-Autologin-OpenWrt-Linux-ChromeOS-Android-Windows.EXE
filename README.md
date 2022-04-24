@@ -42,6 +42,9 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Alternative Using HTTP POST & Wget
 
+<details>
+  <summary>Click to expand!</summary>
+
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure (With SSL Cert) <br/>
 BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon<br/>
@@ -52,6 +55,8 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 Bt Buisness Broadband
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
 
+ 
+ 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure (Must Allow Any Certificate)( <br/>
 BT Home Broadband:<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/tbbLogon<br/>
@@ -62,6 +67,8 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 Bt Buisness Broadband<br/>
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://192.168.23.21:8443/ante?partnerNetwork=btb<br/>
 
+</details> 
+ 
 # Instant Logoff URLs<br/>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure Page <br/>
