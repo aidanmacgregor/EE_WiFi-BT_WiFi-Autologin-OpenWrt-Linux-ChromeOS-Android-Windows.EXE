@@ -36,7 +36,7 @@ manually logging out and letting it sign itself in didnt break an active downloa
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin (HTTP POST & Wget)
 
 <details>
-  <summary>Click to expand!</summary><br/>
+  <summary>Click to expand!</summary>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure HTTP POST (With SSL Cert) <br/>
 - BT Home Broadband:<br/>
@@ -71,7 +71,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin HTTP GET & Browser URL<br/>
 
 <details>
-  <summary>Click to expand!</summary><br/>
+  <summary>Click to expand!</summary>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure HTTP GET <br/>
 (Normal Login, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF)<br/>
@@ -88,7 +88,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff URLs (Instant)<br/>
 
 <details>
-  <summary>Click to expand!</summary><br/>
+  <summary>Click to expand!</summary>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Goggle DNS = DNS Rebind Protection OFF) <br/>
