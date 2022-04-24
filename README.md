@@ -69,7 +69,7 @@ https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 
-# To Leave Rebind Protection On & Set Up Alternatave DNS Servers
+# ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) To Leave Rebind Protection On & Set Up Alternatave DNS Servers
 Use The insecure URLs as these work without BTs DNS server<br/>
 Im Using Google DNS on the internal network To Remove Forced Google Safe Search<br/>
 Chose Network > Interfaces & EDIT the LAN Interface<br/>
