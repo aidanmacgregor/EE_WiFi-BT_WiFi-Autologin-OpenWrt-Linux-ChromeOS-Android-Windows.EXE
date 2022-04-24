@@ -2,7 +2,7 @@
 ## BT Wi-Fi Autologin MACRODROID - WISPr - HTTP POST - HTTP GET - Android - OpenWrt
 <br/>
 <br/> 
-
+### Generel Information
 The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network
 - Pay & Go On Demand (1 Hour To 30 Days)
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
