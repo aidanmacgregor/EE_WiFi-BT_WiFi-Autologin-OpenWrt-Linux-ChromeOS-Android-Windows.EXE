@@ -106,6 +106,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 <br/>
 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Setup <br/>
+<br/>
+<br/>
 
 <details>
   <summary>Click to expand!</summary>
