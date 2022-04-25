@@ -7,13 +7,25 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br
 - Pay & Go On Demand (1 Hour To 30 Days)
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
+- FON (No longer in partnership with Fon as of 2020)
 
 Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Credidetials Every Time<br/>
 - BT Log You Out Automatically After 4 Hours (And A Few Seconds)
 - There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 - If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
 - If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variables Drawer To Add Account<br/>
-- SSIDs: BTWi-fi, BTWiFi, _BTWi-fi, BTWifi-with-FON, BTWiFi-with-FON, BTOpenzone-B, BTOpenzone-H, BTOpenzone, BTFON (No longer in partnership with Fon as of 2020)
+### SSIDs:
+(Pulled From APK, No longer in partnership with Fon as of 2020, Most Hotspots Now Branded BTWi-fi)
+
+- BTWi-fi 
+- _BTWi-fi 
+- BTWifi-with-FON
+- BTWiFi-with-FON
+- BTOpenzone
+- BTOpenzone-H
+- BTOpenzone-B
+- BTWiFi 
+- BTFON
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
