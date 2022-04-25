@@ -73,11 +73,13 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
   <summary>Click to expand!</summary>
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure HTTP GET (With SSL Certificate)<br/>
-(Normal Login, Does NOT Work With Other DNS Settings EG. Google DNS)<br/>
+(Normal Login, Does NOT Work With Other DNS Settings EG. Google DNS) <br/>
+
 https://www.btwifi.com:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP GET (Must Allow Any Certificate)<br/>
 (SSL Error in Browser, Works With Other DNS Settings EG. Google DNS) <br/>
+
 https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PASSWORD
  
 </details>
@@ -92,10 +94,12 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 
 ## ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page <br/>
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Google DNS) <br/>
+
 https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
 
 ## ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure <br/>
 (SSL Error in Browser, Work With Other DNS Settings EG. Google DNS) <br/>
+
 https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details>
