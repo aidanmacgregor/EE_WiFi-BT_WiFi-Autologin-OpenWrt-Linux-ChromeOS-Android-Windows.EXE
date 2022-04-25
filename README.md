@@ -8,17 +8,17 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br
 - Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
 
-Therse Are The URLs I Have Found To Login Without Loading A Webpage, Typing Credidetials Every Time<br/>
-There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
-If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
-If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account<br/>
+Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Credidetials Every Time<br/>
+- There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
+- If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
+- If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account<br/>
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
 Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With OpenWRT Configured in Client & Access Point Mode <br/>
-This allows one device to sign in every device inside my network <br/>
-this runs well & downtime is almost non existant <br/>
-manually logging out and letting it sign itself in didnt break an active download i had running
+- This allows one device to sign in every device inside my network <br/>
+- this runs well & downtime is almost non existant <br/>
+- manually logging out and letting it sign itself in didnt break an active download i had running
 
 ### Speeds For Me: (You Will Vary) <br/>
 - Ping Approx. 40 MS<br/>
