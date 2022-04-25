@@ -13,7 +13,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 - There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 - If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
 - If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variables Drawer To Add Account<br/>
-- SSID: BT Wi-Fi, BT Openzone, BT Openzone-H, BT Openzone-B, BTWiFi-with-Fon, BTFon
+- SSID: BTWi-fi, BTWiFi, _BTWi-fi, BTWifi-with-FON, BTWiFi-with-FON, BTOpenzone-B, BTOpenzone-H, BTOpenzone, BTFON
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
