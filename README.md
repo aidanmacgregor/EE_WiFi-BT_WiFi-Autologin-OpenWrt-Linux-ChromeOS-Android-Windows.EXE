@@ -9,9 +9,10 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br
 - As A BT Broadband OR BT Mobile Customer (BT Broadband and BT Mobile customers get free, unlimited access to the BT Wi-Fi network)
 
 Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Credidetials Every Time<br/>
+- BT Log You Out Automatically After 4 Hours (And A Few Seconds)
 - There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) <br/> 
 - If Using Inside A Script Edit The URL To Include Your Account Info<br/> 
-- If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variaables Drawer To Add Account<br/>
+- If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variables Drawer To Add Account<br/>
 
 ### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
 
