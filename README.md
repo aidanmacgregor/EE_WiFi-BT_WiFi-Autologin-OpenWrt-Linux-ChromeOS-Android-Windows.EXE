@@ -130,7 +130,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 ## Template Availible In The Macrodroid Template Store!
 <br/>
 
-![1 Screenshot_20220412-123013_MacroDroidStore](https://user-images.githubusercontent.com/11254983/163649134-b3bc7d86-01b2-42ee-a469-ac74f1c2c86b.jpg) <br/>
+![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
+ <br/>
 
 ## Variables Tab (Ajust Settings & Add Account Here)
 <br/>
@@ -142,7 +143,8 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 <details>
   <summary>Click to expand!</summary>
   
-![2  Screenshot_20220415-230329_MacroDroid_copy_640x6225](https://user-images.githubusercontent.com/11254983/163649196-6d36793d-7038-4684-b65e-305aaa9dc821.jpg)
+![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
+  
 <br/>
 
    </details>
