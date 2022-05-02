@@ -178,8 +178,99 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
   <summary>Click to expand!</summary>
   
   <br/>
-  In Progress<br/>
+  
+## System - Administration (Set Password)
+  
+  ![1 - System - Administration (Set Password)](https://user-images.githubusercontent.com/11254983/166240566-d8d4fc01-ef00-479c-8592-e3845ebe96a6.JPG)
+  
+ <br/>
+  
+## Network - Wireless (delete WiFi)
+  ![2 - Network - Wireless (delete WiFi)](https://user-images.githubusercontent.com/11254983/166240817-9a8fb916-d3fd-4791-b4cb-dd2ae2649272.JPG)
+
   <br/>
+  
+## Network - Wireless (Connect BT WiFi)
+![3 - Network - Wireless (Connect BT WiFi)](https://user-images.githubusercontent.com/11254983/166240933-f0e76120-650b-4d0f-9fd7-6407fe92e5d2.JPG)
+
+  <br/>
+  
+## Network - Wireless (inactivity & Low ACK)
+  ![4  - Network - Wireless (inactivity   Low ACK)](https://user-images.githubusercontent.com/11254983/166241142-6537767b-f52a-49e4-959b-6837102b9b61.JPG)
+  
+  <br/>
+  
+## Network - Wireless (Create An Access Point)
+  ![4 1 - Network - Wireless (Create An Access Point)](https://user-images.githubusercontent.com/11254983/166241248-638a4873-0d93-4a99-bda9-f2a0ff2080ae.JPG)
+  
+  <br/>
+  
+## Network - Interface (delete wan & wan6)
+  ![5 - Network - Interface (delete wan   wan6)](https://user-images.githubusercontent.com/11254983/166241334-f505c56f-23db-4e25-9941-55cffcd3bc47.JPG)
+  
+  <br/>
+  
+## Network - Interface - LAN - Edit (Use custom DNS servers)
+![6 - Network - Interface - LAN - Edit (Use custom DNS servers)](https://user-images.githubusercontent.com/11254983/166241402-27dc1998-64c3-41da-a3c0-390827530e47.JPG)
+  
+  <br/>
+  
+## Network - Interface - LAN - Edit - DHCP Server - Advanced Settings- (DHCP-options)
+  ![7 - Network - Interface - LAN - Edit - DHCP Server - Advanced Settings- (DHCP-options)](https://user-images.githubusercontent.com/11254983/166241561-665686c0-3435-4bc8-9f2e-2a3fe3b5cfcd.JPG)
+  
+  <br/>
+  
+## Network - DHCP & DNS (disable rebind protection)
+  ![8 - Network - DHCP   DNS (disable rebind protection)](https://user-images.githubusercontent.com/11254983/166241698-471e5593-043a-4ffe-9f3a-7e6ad959831b.JPG)
+  
+  <br/>
+  
+## Login Manually
+  ![9 - Login Manually](https://user-images.githubusercontent.com/11254983/166241894-2aa59758-a5bb-4863-a13c-a2874aca56d1.JPG)
+  
+  <br/>
+  
+## System - Software (install libustream-mbedtls)
+  ![10 - System - Software](https://user-images.githubusercontent.com/11254983/166242079-36c6912e-d3cc-489d-a03e-3652604631aa.JPG)
+  
+  <br/>
+  
+## System - Software (install tmux)
+  ![11 - System - Software](https://user-images.githubusercontent.com/11254983/166242150-36d4c4e7-f1b6-45c6-95f0-15fc8e9e0343.JPG)
+  
+  <br/>
+  
+## Add Account Details to the Script
+  ![12 - Add Account Details to SH](https://user-images.githubusercontent.com/11254983/166242263-c55bd6ba-1414-4332-bc85-b356d2bf17aa.JPG)
+  
+  <br/>
+  
+## Copy Script To /sbin (Use WinSCP to transfer)
+  ![13 - Copy sh To sbin](https://user-images.githubusercontent.com/11254983/166242422-9e4e91bd-16a4-4500-a51f-5ee796ddee61.JPG)
+  
+  <br/>
+  
+## Set Permissions (755)
+  ![14 - Set Permissions (755)](https://user-images.githubusercontent.com/11254983/166242532-b2aefdd3-215e-47f6-87db-b0255253ce72.JPG)
+  
+  <br/>
+  
+## System - Startup - Local startup
+  ![15 - System - Startup - Local startup](https://user-images.githubusercontent.com/11254983/166242600-ff456463-fded-4b3c-8421-d6828284c164.JPG)
+  
+  <br/>
+  
+## Network - DHCP & DNS (enable rebind protection)
+  ![16 - Network - DHCP   DNS (enable rebind protection)](https://user-images.githubusercontent.com/11254983/166242694-f7b918ad-f751-4473-b396-63a526b30d0f.JPG)
+  
+  <br/>
+  
+  ## Manual Run The Script (For Tetsing)
+  
+  ![17 - Manual Run](https://user-images.githubusercontent.com/11254983/166243577-bc600601-d463-4ee7-942f-af60fc8c8552.JPG)
+
+  <br/>
+  
   
 </details>
 
