@@ -27,7 +27,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 - BTWiFi 
 - BTFON
 
-### I Advise Using An Android Device & Macrodroid, Set up As Follows <br/>
+### I Advise Using The OpenWrt Script (Macrodroid Config Also Availible For Use On Android) <br/>
 
 Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With OpenWRT Configured in Client & Access Point Mode <br/>
 - This allows one device to sign in every device inside my network <br/>
@@ -35,6 +35,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 - manually logging out and letting it sign itself in didnt break an active download i had running
 
 ### Speeds For Me: (You Will Vary) <br/>
+
 - Ping Approx. 40 MS<br/>
 - Download 40 Mbps +<br/>
 - Upload Approx 17 Mbps<br/>
@@ -180,6 +181,7 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
   <br/>
   
 ## System - Administration (Set Password)
+  Set Up Your Router Admin Password
   
   ![1 - System - Administration (Set Password)](https://user-images.githubusercontent.com/11254983/166240566-d8d4fc01-ef00-479c-8592-e3845ebe96a6.JPG)
   
