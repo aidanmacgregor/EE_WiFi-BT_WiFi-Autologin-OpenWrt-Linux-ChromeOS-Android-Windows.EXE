@@ -1,5 +1,5 @@
 ![NEW LOGO 7 (2)](https://user-images.githubusercontent.com/11254983/164937155-679db244-df83-4aa6-a6f2-9a3fee0dfad7.png)<br/> 
-## BTWi-fi Autologin (Shell Script) (Macrodroid) (OpenWrt) (WISPr) (HTTP POST) (HTTP GET)
+## BTWi-fi Autologin (OpenWrt) (Script.sh) (Macrodroid) (WISPr) (HTTP-POST) (HTTP-GET)
 
 ### Generel Information<br/>
 
@@ -40,7 +40,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 - Download 40 Mbps +<br/>
 - Upload Approx 17 Mbps<br/>
 
-# ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
+# ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BTWi-fi YouTube Guide<br/>
 Updated Video Planned Soon!
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
@@ -156,7 +156,9 @@ Automatic Login From An Android Device, With Alway Online, Charging Only Mode, T
   <summary>Click to expand!</summary>
 
 ### Template Availible In The Macrodroid Template Store!
-Download From Macrodroid Templates!
+<br/>
+Download From Macrodroid Templates!<br/>
+<br/>
 
 ![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
  <br/>
@@ -164,9 +166,11 @@ Download From Macrodroid Templates!
   
 ### Variables Tab (Edit Settings & Add Account Here)
 <details>
-  <summary>Click to expand!</summary
+  <summary>Click to expand!</summary>
+
 <br/>
-Settings & Inmformation Here<br/>
+Settings & Information Here<br/>
+<br/>
 	  
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
@@ -175,7 +179,9 @@ Settings & Inmformation Here<br/>
 ### Main Macro
 <details>
   <summary>Click to expand!</summary>
+<br/>
 Macro Structure<br/>
+<br/>
 	
 ![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
   
