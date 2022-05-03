@@ -313,7 +313,7 @@ To Help Remove Google Safe Search<br/>
   <br/>
   
 ### Manual Run The Script (For Tetsing)<br/>
-  Run The Script & Then Log Out, Ad Watch A Aing Test To See How Quickly Connection Is Restored To Stop Press [CTRL] & [C]<br/>
+  Run The Script & Then Log Out, And Watch A Ping Test To See How Quickly Connection Is Restored To Stop Press [CTRL] & [C]<br/>
 	 <br/>
   ![17 - Manual Run](https://user-images.githubusercontent.com/11254983/166243577-bc600601-d463-4ee7-942f-af60fc8c8552.JPG)
 
