@@ -46,7 +46,7 @@ Updated Video Planned Soon!
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 <br/>
 <br/>
-# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin Shell Script (btwifi.sh) (OpenWrt Compatible)
+# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Shell Script Autologin (btwifi.sh) (OpenWrt Compatible)
 
 This is a shell script to automate the sign in and always remain connected to BTWi-fi, Designed To Be Light, Simple & fast
 
