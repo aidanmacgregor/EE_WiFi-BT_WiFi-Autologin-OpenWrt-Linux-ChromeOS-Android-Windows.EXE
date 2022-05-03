@@ -57,7 +57,8 @@ This is a shell script to automate the sign in and always remain connected to BT
  ### BTWi-fi Shell Script
 [DOWNLOAD SCRIPT](https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT/blob/974fd6173b00c1a89c223cf41324b0b09de448da/btwifi.sh) (btwifi.sh)
 
-```#!/bin/sh
+```
+#!/bin/sh
 
 ###############- BTWifi Openwrt Autologin Script -###############
 ##############-- By: Aidan Macgregor (May 2022) --###############
