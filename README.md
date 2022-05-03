@@ -166,7 +166,7 @@ Download From Macrodroid Templates!
 <details>
   <summary>Click to expand!</summary
 <br/>
-Settings & Inmformation Here
+Settings & Inmformation Here<br/>
 	  
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
@@ -175,7 +175,7 @@ Settings & Inmformation Here
 ### Main Macro
 <details>
   <summary>Click to expand!</summary>
-Macro Structure
+Macro Structure<br/>
 	
 ![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
   
