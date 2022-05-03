@@ -41,6 +41,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 - Upload Approx 17 Mbps<br/>
 
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BT Wi-fi YouTube Guide<br/>
+Updated Video Planned Soon!
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 <br/>
@@ -148,46 +149,43 @@ done
  <br/>
 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+)<br/>
-
 Automatic Login From An Android Device, With Alway Online, Charging Only Mode, Track The Number Of Logins & More
 
 <details>
   <summary>Click to expand!</summary>
 
 ### Template Availible In The Macrodroid Template Store!
-<br/>
+Download From Macrodroid Templates!
 
 ![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
  <br/>
 
   
 ### Variables Tab (Edit Settings & Add Account Here)
-
 <details>
   <summary>Click to expand!</summary
-
 <br/>
- 
+Settings & Inmformation Here
+	  
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
  </details>
 
 ### Main Macro
-
 <details>
   <summary>Click to expand!</summary>
-  
+Macro Structure
+	
 ![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
   
 <br/>
 
    </details>
-  
-   </details>
-   
+   </details> 
  <br/>
 
  # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup (17.x to 21.x Tested)<br/>
+Set Up OpenWrt With BTWi-fi & the autologin script!
  
  <details>
   <summary>Click to expand!</summary>
@@ -293,6 +291,7 @@ Automatic Login From An Android Device, With Alway Online, Charging Only Mode, T
  <br/>
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin URLs (HTTP POST, HTTP GET & Browser URL) <br/>
+The URLs Used By BT For Authentication
 
 <details>
   <summary>Click to expand!</summary>
@@ -355,6 +354,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
  <br/>
 
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff (HTTP GET & Browser URL) <br/>
+These URLs can be used to manually log out
 
 <details>
   <summary>Click to expand!</summary>
@@ -374,6 +374,7 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
  <br/>
   
  ## ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Rebind Protection & Alternatave DNS (Safesearch Remove)
+ Useful Info (OpenWrt Guide Already Included These Steps)
  
  <details>
   <summary>Click to expand!</summary>
