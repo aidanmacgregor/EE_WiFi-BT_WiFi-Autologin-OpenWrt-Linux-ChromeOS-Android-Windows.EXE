@@ -44,6 +44,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 <br/>
+<br/>
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Autologin Shell Script (btwifi.sh) (OpenWrt Compatible)
 
 This is a shell script to automate the sign in and always remain connected to BTWi-fi, Designed To Be Light, Simple & fast
@@ -145,7 +146,6 @@ done
  </details>
 
  <br/>
- <br/>
 
 # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+)<br/>
 
@@ -185,7 +185,6 @@ Automatic Login From An Android Device, With Alway Online, Charging Only Mode, T
   
    </details>
    
- <br/>
  <br/>
 
  # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup (17.x to 21.x Tested)<br/>
@@ -292,7 +291,6 @@ Automatic Login From An Android Device, With Alway Online, Charging Only Mode, T
 </details>
 
  <br/>
- <br/>
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin URLs (HTTP POST, HTTP GET & Browser URL) <br/>
 
@@ -355,7 +353,6 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
 </details>
 
  <br/>
- <br/>
 
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff (HTTP GET & Browser URL) <br/>
 
@@ -374,7 +371,6 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details>
 
- <br/>
  <br/>
   
  ## ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Rebind Protection & Alternatave DNS (Safesearch Remove)
@@ -414,5 +410,4 @@ Im Using Google DNS on the internal network To Remove Forced Google Safe Search<
 
 </details>
 
- <br/>
  <br/>
