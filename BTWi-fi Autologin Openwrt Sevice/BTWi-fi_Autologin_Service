@@ -57,12 +57,10 @@ if [[ "92" -ge "92" ]]; then
 fi
 	if ! ping -c 1 -W 1 $PINGDNS 2>/dev/null >/dev/null	 
 	then
-		logger -t BTWi-fi_Autologin_Service "Ping 1 DNS Fail"
-		echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
 		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null			 
 		then
-			logger -t BTWi-fi_Autologin_Service "Ping 2 URL Fail"
-			echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
+			logger -t BTWi-fi_Autologin_Service "Ping 2 FAIL"
+			echo "$(date) Ping 2 FAIL" >> $LOGPATH
 			if [ "$ACCOUNTTYPE" = "1" ]
 			then
 				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)"
