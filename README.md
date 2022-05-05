@@ -2,6 +2,8 @@
 ## BTWi-fi Autologin (OpenWrt) (Script.sh) (Macrodroid) (WISPr) (HTTP-POST) (HTTP-GET)
 
 ### Generel Information<br/>
+![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) OpenWrt Script Has Now Been Replaced With A Service (Edit The File Using Notepad++)
+</br>
 
 The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br/>
 - Pay & Go On Demand (1 Hour To 30 Days)
@@ -27,7 +29,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 - BTWiFi 
 - BTFON
 
-### I Advise Using The OpenWrt Script (Macrodroid Config Also Availible For Use On Android) <br/>
+### I Advise Using The OpenWrt Service (Macrodroid Config Also Availible For Use On Android) <br/>
 
 Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With OpenWRT Configured in Client & Access Point Mode <br/>
 - This allows one device to sign in every device inside my network <br/>
@@ -46,51 +48,41 @@ Updated Video Planned Soon!
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 <br/>
 <br/>
-# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Shell Script Autologin (btwifi.sh) (OpenWrt Compatible)
 
-This is a shell script to automate the sign in and always remain connected to BTWi-fi, Designed To Be Light, Simple & fast
 
-<details>
-  <summary>Click to expand!</summary>
-  <br/>
+ # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Autologin Service & Setup (17.x to 21.x Tested)<br/>
+Set Up OpenWrt With BTWi-fi & the autologin Service
  
- ### BTWi-fi Shell Script
-[DOWNLOAD SCRIPT](https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT/blob/974fd6173b00c1a89c223cf41324b0b09de448da/btwifi.sh) (btwifi.sh)
-
+  <details>
+  <summary>Click to expand!</summary>
+ 
+### OpenWrt Autologin Service
 ```
-#!/bin/sh
+#!/bin/sh /etc/rc.common
 
-###############- BTWifi Openwrt Autologin Script -###############
+##############- BTWi-fi Openwrt Autologin Service -##############
 ##############-- By: Aidan Macgregor (May 2022) --###############
 # https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT
 # (Tested On LEDE 17.01.7, OpenWrt 19.07.10 & 21.02.3)
 
 ############### INFO ###############
 
-#### OpenWrt Install These 2 Required Packages: 
-
+#### OpenWrt Install This Required Package:
 # 	libustream-mbedtls
 # (libustream-mbedtls Not Needed On OpenWRT 21.X as Wolf SSL included)
 
-#	tmux
-# (tmux only fits on 8mb devices, if you have a 4mb device use older buggy method)
-
-#### Copy This File To /sbin/
+#### Copy This File To /etc/init.d/
 # 	Use WinSCP To Tranfer File & Give 755 (Execute) permissions
+# (If No Permissions You Get Error "Failed to execute "/etc/init.d/BTWi-fi_Autologin_Service start")
 
-#### Manual Run Using Putty Or Kitty:
-# 	btwifi.sh
+#### Manual Run & Stop (Stopping Also Signs The Account Out)
+# 	Click Start/Stop on the service in LUCI (System > Startup)
 
-#### Start On Boot (For Devices With Room For tmux), Add This With LUCI System/Startup (rc.local)
-# 	/usr/bin/tmux new -d /bin/sh /sbin/btwifi.sh
-
-#### (For 4mb Devices With NO Room For tmux, MAY BE BUGGY) Start On Boot , Add This With LUCI System/Startup (rc.local)
-# 	/bin/sh /sbin/btwifi.sh
+#### Automatically Start On Boot
+#	Enable the service in LUCI (System > Startup)
 
 #### In The SETTINGS Section Choose Your Account Type & Add Email & Password
-
-#### To stop this script comment out or remove the line in LUCI System - Startup - Local Startup (local.rc) & Reboot
-# (OR Delete/Rename the file from /sbin & Reboot)
+# (Reccomend Open This File With Notepad++)
 
 #### Account Type:
 # 	1 = BT Home Broadband
@@ -107,93 +99,72 @@ PASSWORD=
 
 PINGDNS=8.8.8.8
 PING2URL=www.google.com
+LOGPATH=/BTWi-fi_Autologin_Service_LOG.txt
 
 ##########################################
 #####---- DO NOT EDIT BELOW HERE ----#####
 ##########################################
 
-# Ensure PATH is sensible
-export PATH=/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+START=99
+STOP=1
+PIDFILE=/var/run/btwifi.pid
 
-# Manual Run Confirm (so user knows something happened)
-echo "btwifi.sh is RUNNING! Press [ctrl] & [c] to stop or test by logging out"
-
+btwifi_loop(){
 while true
 do
-	if ! ping -c 1 -W 1 $PINGDNS 2>/dev/null >/dev/null			 
-	then 
-		logger -t BTWi-fi "Ping 1 DNS Fail"
-		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null				 
+if [[ "92" -ge "92" ]]; then
+	echo "$(tail -92 $LOGPATH)" > $LOGPATH
+fi
+	if ! ping -c 1 -W 1 $PINGDNS 2>/dev/null >/dev/null	 
+	then
+		logger -t BTWi-fi_Autologin_Service "Ping 1 DNS Fail"
+		echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
+		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null			 
 		then
-			logger -t BTWi-fi "Offline, Attempting Login, Ping 2 DNS Fail"
+			logger -t BTWi-fi_Autologin_Service "Ping 2 URL Fail"
+			echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
 			if [ "$ACCOUNTTYPE" = "1" ]
 			then
-				logger -t BTWi-fi "Offline, attempting login URL 1 (BT Home Broadband Account)"
+				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)"
+				echo "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)" >> $LOGPATH
 				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/tbbLogon'
 			elif [ "$ACCOUNTTYPE" = "2" ]
 			then
-				logger -t BTWi-fi "Offline, attempting login URL2 (BT Buisness Broadband Account)"																	 
+				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 2 (BT Buisness Broadband Account)"
+				echo "$(date) Offline, attempting login URL 2 (BT Buisness Broadband Account)" >> $LOGPATH
 				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/ante?partnerNetwork=btb'
 			elif [ "$ACCOUNTTYPE" = "3" ]
 			then
-				logger -t BTWi-fi "Offline, attempting login URL3 (BT Wi-fi Account)"														 
+				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 3 (BT Wi-Fi Account)"
+				echo "$(date) Offline, attempting login URL 3 (BT Wi-Fi Account)" >> $LOGPATH
 				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/ante'
 			fi
 		fi
 	fi
 sleep 1
 done
+}
+
+start() {
+	logger -t BTWi-fi_Autologin_Service "$(date) BTWi-fi Autologin Service Started"
+	echo "$(date) BTWi-fi Autologin Service Started" >> $LOGPATH
+	[ -f $PIDFILE ] && [ ! -d /proc/`cat $PIDFILE` ] && rm $PIDFILE
+	[ -f $PIDFILE ] && exit 1
+	btwifi_loop &
+	echo -n $! > $PIDFILE
+}
+
+stop() {
+	kill `cat $PIDFILE`
+	rm $PIDFILE
+	wget -T 2 -O /dev/null 'https://192.168.23.21:8443/accountLogoff/home?confirmed=true'
+	logger -t BTWi-fi_Autologin_Service "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)"
+	echo "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)" >> $LOGPATH
+}
 ```
-
- </details>
-
- <br/>
-
-# ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+)<br/>
-Automatic Login From An Android Device, With Alway Online, Charging Only Mode, Track The Number Of Logins & More
-
-<details>
-  <summary>Click to expand!</summary>
-
-### Template Availible In The Macrodroid Template Store!
-<br/>
-Download From Macrodroid Templates!<br/>
-<br/>
-
-![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
- <br/>
-
-  
-### Variables Tab (Edit Settings & Add Account Here)
-<details>
-  <summary>Click to expand!</summary>
-
-<br/>
-Settings & Information Here<br/>
-<br/>
-	  
-![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
-
- </details>
-
-### Main Macro
-<details>
-  <summary>Click to expand!</summary>
-<br/>
-Macro Structure<br/>
-<br/>
 	
-![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
-  
-<br/>
+### OpenWrt Config
 
-   </details>
-   </details> 
- <br/>
-
- # ![2528830](https://user-images.githubusercontent.com/11254983/164993973-1b534096-84a8-4785-bf39-ea177eea4274.png) OpenWrt Setup (17.x to 21.x Tested)<br/>
-Set Up OpenWrt With BTWi-fi & the autologin script!
- 
  <details>
   <summary>Click to expand!</summary>
   
@@ -327,6 +298,65 @@ To Help Remove Google Safe Search<br/>
   
   
 </details>
+</details>
+
+ <br/>
+ 
+ # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+)<br/>
+Automatic Login From An Android Device, With Alway Online, Charging Only Mode, Track The Number Of Logins & More
+
+<details>
+  <summary>Click to expand!</summary>
+
+### Template Availible In The Macrodroid Template Store!
+<br/>
+Download From Macrodroid Templates!<br/>
+<br/>
+
+![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
+ <br/>
+
+  
+### Variables Tab (Edit Settings & Add Account Here)
+<details>
+  <summary>Click to expand!</summary>
+
+<br/>
+Settings & Information Here<br/>
+<br/>
+	  
+![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
+
+ </details>
+
+### Main Macro
+<details>
+  <summary>Click to expand!</summary>
+<br/>
+Macro Structure<br/>
+<br/>
+	
+![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
+  
+<br/>
+
+   </details>
+   </details> 
+ <br/>
+
+# ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Shell Script Autologin Linux (Bash & Openwrt Shell) (btwifi.sh)
+
+This is a shell script to automate the sign in and always remain connected to BTWi-fi, Designed To Be Light, Simple & fast
+
+<details>
+  <summary>Click to expand!</summary>
+  <br/>
+ 
+ ### BTWi-fi Shell Script
+[DOWNLOAD SCRIPT](https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT/blob/974fd6173b00c1a89c223cf41324b0b09de448da/btwifi.sh) (btwifi.sh)
+
+
+ </details>
 
  <br/>
 
