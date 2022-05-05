@@ -221,36 +221,37 @@ Add Custom DNS Servers<br/>
   
 ### Network - Interface - LAN - Edit - DHCP Server - Advanced Settings- (DHCP-options)<br/>
 Add Custom DNS Servers<br/>
+	 
 <br/>
+	 
   ![7 - Network - Interface - LAN - Edit - DHCP Server - Advanced Settings- (DHCP-options)](https://user-images.githubusercontent.com/11254983/166241561-665686c0-3435-4bc8-9f2e-2a3fe3b5cfcd.JPG)
   
   <br/>
   
 ### Network - DHCP & DNS (disable rebind protection)<br/>
 (Needed To Load The Login Page & Download The Packages)<br/>
+	 
 	 <br/>
+	 
   ![8 - Network - DHCP   DNS (disable rebind protection)](https://user-images.githubusercontent.com/11254983/166241698-471e5593-043a-4ffe-9f3a-7e6ad959831b.JPG)
   
   <br/>
   
 ### Login Manually<br/>
 Load a webpage & Log in Normally<br/>
+	 
 	 <br/>
+	 
   ![9 - Login Manually](https://user-images.githubusercontent.com/11254983/166241894-2aa59758-a5bb-4863-a13c-a2874aca56d1.JPG)
   
   <br/>
   
 ### System - Software (install libustream-mbedtls)<br/>
 Install The Following Package<br/>
+	 
 	 <br/>
+	 
   ![10 - System - Software](https://user-images.githubusercontent.com/11254983/166242079-36c6912e-d3cc-489d-a03e-3652604631aa.JPG)
-  
-  <br/>
-  
-### System - Software (install tmux)<br/>
-Install The Following Package<br/>
-	 <br/>
-  ![11 - System - Software](https://user-images.githubusercontent.com/11254983/166242150-36d4c4e7-f1b6-45c6-95f0-15fc8e9e0343.JPG)
   
   <br/>
   
@@ -261,25 +262,25 @@ You Need To Add Your Account Details & Choose Account Type<br/>
   
   <br/>
   
-### Copy Script To /sbin (Use WinSCP to transfer)<br/>
+### Copy Service File To /etc/init.d (Use WinSCP to transfer)<br/>
 Use WinSPC To Transfer Files To The Router<br/>
 	 <br/>
-  ![13 - Copy sh To sbin](https://user-images.githubusercontent.com/11254983/166242422-9e4e91bd-16a4-4500-a51f-5ee796ddee61.JPG)
-  
-  <br/>
-  
+![13 - Copy sh To sbin](https://user-images.githubusercontent.com/11254983/167023631-866f98ca-c8d1-4de3-9588-501f490112ee.png)
+
+  <br/> 
+
 ### Set Permissions (755)<br/>
 Use WinSCP, File Properties<br/>
 	 <br/>
-  ![14 - Set Permissions (755)](https://user-images.githubusercontent.com/11254983/166242532-b2aefdd3-215e-47f6-87db-b0255253ce72.JPG)
+  ![14 - Set Permissions (755)](https://user-images.githubusercontent.com/11254983/167023685-e716341a-fc03-4faf-8417-43e2d13e9d0b.png)
   
   <br/>
   
-### System - Startup - Local startup<br/>
+### System - Startup <br/>
 This Makes The Script Run When The Router Boots Up<br/>
 	 <br/>
-  ![15 - System - Startup - Local startup](https://user-images.githubusercontent.com/11254983/166242600-ff456463-fded-4b3c-8421-d6828284c164.JPG)
-  
+  ![15 - System - Startup - Enable on boot](https://user-images.githubusercontent.com/11254983/167023774-c3b781d3-0018-4023-9691-e4b780e5f583.png)
+
   <br/>
   
 ### Network - DHCP & DNS (enable rebind protection)<br/>
@@ -288,14 +289,7 @@ To Help Remove Google Safe Search<br/>
   ![16 - Network - DHCP   DNS (enable rebind protection)](https://user-images.githubusercontent.com/11254983/166242694-f7b918ad-f751-4473-b396-63a526b30d0f.JPG)
   
   <br/>
-  
-### Manual Run The Script (For Tetsing)<br/>
-  Run The Script & Then Log Out, And Watch A Ping Test To See How Quickly Connection Is Restored To Stop Press [CTRL] & [C]<br/>
-	 <br/>
-  ![17 - Manual Run](https://user-images.githubusercontent.com/11254983/166243577-bc600601-d463-4ee7-942f-af60fc8c8552.JPG)
 
-  <br/>
-  
   
 </details>
 </details>
