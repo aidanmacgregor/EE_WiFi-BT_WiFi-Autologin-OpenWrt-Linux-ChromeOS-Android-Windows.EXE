@@ -322,7 +322,20 @@ Settings & Information Here<br/>
 ![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
 
  </details>
+	
+### Use Phone As Repeater
+<details>
+  <summary>Click to expand!</summary>
+<br/>
+Wi-Fi Sharing Android (Dont Forget To Set A Password)<br/>
+<br/>
+	
+![Screenshot_20220505-215917_Settings](https://user-images.githubusercontent.com/11254983/167026350-4fd79afb-2073-438e-83e2-5dca2778b921.png)
+  
+<br/>
 
+   </details>	
+		
 ### Main Macro
 <details>
   <summary>Click to expand!</summary>
@@ -335,7 +348,7 @@ Macro Structure<br/>
 <br/>
 
    </details>
-   </details> 
+	</details>
  <br/>
 
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Shell Script Autologin Linux (Bash & Openwrt Shell) (btwifi.sh)
