@@ -1,0 +1,103 @@
+#!/bin/sh /etc/rc.common
+
+###############- BTWifi Openwrt Autologin Script -###############
+##############-- By: Aidan Macgregor (May 2022) --###############
+# https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT
+# (Tested On OpenWrt 19.07.10)
+
+############### INFO ###############
+
+#### OpenWrt Install This Required Package: 
+
+# 	libustream-mbedtls
+# (libustream-mbedtls Not Needed On OpenWRT 21.X as Wolf SSL included)
+
+#### Copy This File To /etc/init.d/
+# 	Use WinSCP To Tranfer File & Give 755 (Execute) permissions
+
+#### Start On Boot
+#	Enable the service in LUCI (System > Startup)
+
+#### Choose Account Type & Add Email & Password
+
+#### Account Type:
+# 	1 = BT Home Broadband
+# 	2 = BT Buisness Broadband
+# 	3 = BT Wi-Fi Account
+
+###############- SETTINGS -###############
+
+ACCOUNTTYPE=1
+USERNAME=
+PASSWORD=
+
+###############- OPTIONAL -###############
+
+PINGDNS=8.8.8.8
+PING2URL=www.google.com
+
+##########################################
+#####---- DO NOT EDIT BELOW HERE ----#####
+##########################################
+
+START=99
+STOP=1
+PIDFILE=/var/pids/BTWi-fi_Autologin_Service.pid
+PIDDIR=/var/pids
+
+btwifi(){
+while true
+do
+if [[ "92" -ge "92" ]]; then
+	echo "$(tail -92 /sbin/BTWi-fi_LOG.txt)" > /sbin/BTWi-fi_LOG.txt
+fi
+	if ! ping -c 1 -W 1 $PINGDNS 2>/dev/null >/dev/null			 
+	then 
+		logger -t BTWi-fi "Ping 1 DNS Fail"
+		echo "$(date) Ping 1 DNS Fail" >> /sbin/BTWi-fi_LOG.txt
+		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null				 
+		then
+			logger -t BTWi-fi "Offline, Attempting Login, Ping 2 URL Fail"
+			echo "$(date) Ping 2 URL Fail" >> /sbin/BTWi-fi_LOG.txt
+			if [ "$ACCOUNTTYPE" = "1" ]
+			then
+				logger -t BTWi-fi "Offline, attempting login URL 1 (BT Home Broadband Account)"
+				echo "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)" >> /sbin/BTWi-fi_LOG.txt
+				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/tbbLogon'
+			elif [ "$ACCOUNTTYPE" = "2" ]
+			then
+				logger -t BTWi-fi "Offline, attempting login URL 2 (BT Buisness Broadband Account)"
+				echo "$(date) Offline, attempting login URL 2 (BT Buisness Broadband Account)" >> /sbin/BTWi-fi_LOG.txt
+				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/ante?partnerNetwork=btb'
+			elif [ "$ACCOUNTTYPE" = "3" ]
+			then
+				logger -t BTWi-fi "Offline, attempting login URL 3 (BT Wi-fi Account)"
+				echo "$(date) Offline, attempting login URL 3 (BT Wi-Fi Account)" >> /sbin/BTWi-fi_LOG.txt
+				wget -T 2 -O /dev/null --post-data "username=$USERNAME&password=$PASSWORD" 'https://192.168.23.21:8443/ante'
+			fi
+		fi
+	fi
+sleep 1
+done
+}
+
+
+start() {
+	[ -d $PIDDIR ] || mkdir -p $PIDDIR
+	[ -f $PIDFILE ] && exit 1
+	echo $! > $PIDFILE
+	echo "$(date) Service Started" >> /sbin/BTWi-fi_LOG.txt
+# Start it in the background
+	btwifi &
+# Save progress() PID
+# You need to use the PID to kill the function
+BTWIFIPID=$!
+}
+
+stop() {
+	kill $BTWIFIPID
+	kill `cat $PIDFILE`
+	rm $PIDFILE
+	echo "$(date) Service Manually Stopped (Or Reboot)" >> /sbin/BTWi-fi_LOG.txt
+	wget -T 2 -O /dev/null 'https://192.168.23.21:8443/accountLogoff/home?confirmed=true'
+}
