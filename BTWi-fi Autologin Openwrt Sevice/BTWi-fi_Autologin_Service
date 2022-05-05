@@ -59,8 +59,6 @@ fi
 	then
 		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null			 
 		then
-			logger -t BTWi-fi_Autologin_Service "Ping 2 FAIL"
-			echo "$(date) Ping 2 FAIL" >> $LOGPATH
 			if [ "$ACCOUNTTYPE" = "1" ]
 			then
 				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)"
