@@ -1,0 +1,35 @@
+#!/bin/sh /etc/rc.common
+
+##########################################
+#####---- DO NOT EDIT BELOW HERE ----#####
+##########################################
+
+START=99
+STOP=1
+PIDFILE=/var/run/connectled.pid
+
+connectled_loop(){
+while true
+do
+Status=$(ping -q -c 4 -W 1 208.67.222.222 > /dev/null 2>&1 && echo "ok" || echo "FAIL")
+	if [ "$Status" = "ok" ]
+	then
+		echo 255 > /sys/class/leds/red:power/brightness
+        else
+        echo 0 > /sys/class/leds/red:power/brightness
+	fi
+sleep 5
+done
+}
+
+start() {
+	[ -f $PIDFILE ] && [ ! -d /proc/`cat $PIDFILE` ] && rm $PIDFILE
+	[ -f $PIDFILE ] && exit 1
+	connectled_loop &
+	echo -n $! > $PIDFILE
+}
+
+stop() {
+	kill `cat $PIDFILE`
+	rm $PIDFILE
+}
