@@ -60,8 +60,8 @@ Set Up OpenWrt With BTWi-fi & the autologin Service
 ```
 #!/bin/sh /etc/rc.common
 
-##############- BTWi-fi Openwrt Autologin Service -##############
-##############-- By: Aidan Macgregor (May 2022) --###############
+##############-- BTWi-fi Openwrt Autologin Service --##############
+##############- By: Aidan Macgregor (v.2 May 2022) -###############
 # https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT
 # (Tested On LEDE 17.01.7, OpenWrt 19.07.10 & 21.02.3)
 
@@ -85,6 +85,7 @@ Set Up OpenWrt With BTWi-fi & the autologin Service
 # (Reccomend Open This File With Notepad++)
 
 #### Account Type:
+
 # 	1 = BT Home Broadband
 # 	2 = BT Buisness Broadband
 # 	3 = BT Wi-Fi Account
@@ -97,7 +98,8 @@ PASSWORD=
 
 ###############- OPTIONAL -###############
 
-PINGDNS=8.8.8.8
+LOGSIZE=40
+PING1DNS=8.8.8.8
 PING2URL=www.google.com
 LOGPATH=/BTWi-fi_Autologin_Service_LOG.txt
 
@@ -107,22 +109,37 @@ LOGPATH=/BTWi-fi_Autologin_Service_LOG.txt
 
 START=99
 STOP=1
-PIDFILE=/var/run/btwifi.pid
+PIDFILELOGIN=/var/run/BT_Wi-fi_Autologin.pid
+PIDFILECUTLOG=/var/run/BT_Wi-fi_Logfile.pid
+
+start() {
+	[ -f $PIDFILELOGIN ] && [ ! -d /proc/`cat $PIDFILELOGIN` ] && rm $PIDFILELOGIN
+	[ -f $PIDFILELOGIN ] && exit 1
+	btwifi_loop &
+	echo -n $! > $PIDFILELOGIN
+	[ -f $PIDFILECUTLOG ] && [ ! -d /proc/`cat $PIDFILECUTLOG` ] && rm $PIDFILECUTLOG
+	[ -f $PIDFILECUTLOG ] && exit 1
+	cleanlog_loop &
+	echo -n $! > $PIDFILECUTLOG
+}
+
+stop() {
+	kill `cat $PIDFILELOGIN`
+	kill `cat $PIDFILECUTLOG`
+	rm $PIDFILELOGIN
+	rm $PIDFILECUTLOG
+	wget -T 2 -O /dev/null 'https://192.168.23.21:8443/accountLogoff/home?confirmed=true'
+	logger -t BTWi-fi_Autologin_Service "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)"
+	echo "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)" >> $LOGPATH
+}
 
 btwifi_loop(){
 while true
 do
-if [[ "92" -ge "92" ]]; then
-	echo "$(tail -92 $LOGPATH)" > $LOGPATH
-fi
-	if ! ping -c 1 -W 1 $PINGDNS 2>/dev/null >/dev/null	 
+	if ! ping -c 1 -W 1 $PING1DNS 2>/dev/null >/dev/null	 
 	then
-		logger -t BTWi-fi_Autologin_Service "Ping 1 DNS Fail"
-		echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
 		if ! ping -c 1 -W 1 $PING2URL 2>/dev/null >/dev/null			 
 		then
-			logger -t BTWi-fi_Autologin_Service "Ping 2 URL Fail"
-			echo "$(date) Ping 1 DNS Fail" >> $LOGPATH
 			if [ "$ACCOUNTTYPE" = "1" ]
 			then
 				logger -t BTWi-fi_Autologin_Service "$(date) Offline, attempting login URL 1 (BT Home Broadband Account)"
@@ -145,21 +162,15 @@ sleep 1
 done
 }
 
-start() {
-	logger -t BTWi-fi_Autologin_Service "$(date) BTWi-fi Autologin Service Started"
-	echo "$(date) BTWi-fi Autologin Service Started" >> $LOGPATH
-	[ -f $PIDFILE ] && [ ! -d /proc/`cat $PIDFILE` ] && rm $PIDFILE
-	[ -f $PIDFILE ] && exit 1
-	btwifi_loop &
-	echo -n $! > $PIDFILE
-}
-
-stop() {
-	kill `cat $PIDFILE`
-	rm $PIDFILE
-	wget -T 2 -O /dev/null 'https://192.168.23.21:8443/accountLogoff/home?confirmed=true'
-	logger -t BTWi-fi_Autologin_Service "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)"
-	echo "$(date) BTWi-fi Autologin Service Stopped Manually (Or Reboot)" >> $LOGPATH
+cleanlog_loop(){
+while true
+do
+if [[ "$LOGSIZE" -ge "$LOGSIZE" ]]
+then
+echo "$(tail -$LOGSIZE $LOGPATH)" > $LOGPATH
+fi
+sleep 30
+done
 }
 ```
 	
