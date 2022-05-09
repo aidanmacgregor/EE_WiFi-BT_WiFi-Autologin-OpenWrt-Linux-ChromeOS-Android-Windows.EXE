@@ -66,19 +66,19 @@ while true
 do	#Add Your Interface Number (Eg. 'awk NR==3 {print $4}' ")
 RSSI=`cat /proc/net/wireless | awk 'NR==4 {print $4}' | sed 's/\.//'`
     if [ -z $RSSI ] || [ $RSSI -ge 0 ]; then
-	echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
         echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
     elif [ $RSSI -ge -70 ] ; then
-	echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
         echo 255 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
-	sleep 2
+		sleep 2
     elif [ $RSSI -ge -75 ] ; then
         echo 255 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
-	echo 255 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
-	sleep 2
+		echo 255 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+		sleep 2
     elif [ $RSSI -ge -80 ] ; then
         echo 255 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
-	echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
     fi
 sleep 1
 done
@@ -90,15 +90,15 @@ do
 Status=$(ping -q -c 4 -W 1 208.67.222.222 > /dev/null 2>&1 && echo "ok" || echo "FAIL")
 	if [ "$Status" = "ok" ]
 	then
-	echo 255 > /sys/class/leds/bthomehubv5a:blue:power/brightness
-	echo 255 > /sys/class/leds/bthomehubv5a:red:power/brightness
-	echo 0 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
-	echo 255 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:blue:power/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:red:power/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
         else
-	echo 0 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
-	echo 0 > /sys/class/leds/bthomehubv5a:blue:power/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:blue:power/brightness
         echo 255 > /sys/class/leds/bthomehubv5a:red:power/brightness
-	echo 255 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
 	fi
 sleep 1
 done
