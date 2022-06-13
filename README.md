@@ -78,8 +78,13 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
 ![Local Startup (3)](https://user-images.githubusercontent.com/11254983/173452553-e6a26dde-2d85-478a-9c94-22dde81a19fc.JPG)
 
 
-## OpenWrt Code
-[(LINK)](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/blob/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20OpenWrt/BT%20Wi-Fi%20Autologin%20Service%20v3%20(OpenWrt)/Manual%20Install%20Files/overlay/upper/etc/init.d/BT_Wi-Fi_Autologin_Service_v3)
+## OpenWrt Code & Downloads
+    
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20OpenWrt)
+    
+[LED Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/OpenWrt%20Theme%20%26%20LED%20Service/OpenWrt%20LED%20Service)
+    
+[Themes](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/OpenWrt%20Theme%20%26%20LED%20Service/OpenWrt%20Theme)
     
   </details>
 
@@ -100,8 +105,8 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
 ## Windows GUI
 ![Capture](https://user-images.githubusercontent.com/11254983/173406801-f14c2f81-be79-4b11-a5f0-3bca724608b8.JPG)
     
-## Windows Code
-[LINK](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Windows)
+## Windows Code & Downloads
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Windows)
 
   </details>
  
@@ -134,12 +139,12 @@ Settings & Information Here<br/>
 
  </details>
 	
-## Code
+## Android Code & Downloads
 <details>
   <summary>Click to expand!</summary>
 <br/>
     	
-(LINK)
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Android/BT%20Wi-Fi%20Autologin%20(Macrodroid)%20(Android))
     
 ![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
   
@@ -176,8 +181,8 @@ This is a shell script to automate the sign in and always remain connected to BT
 ## Terminal Running
 ![WSL2](https://user-images.githubusercontent.com/11254983/173451001-cce58162-7475-4322-9744-fb842ce40209.JPG)
 
-## Code 
-(LINK)
+## Linux Code & Download
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Linux)
     
  </details>
 
