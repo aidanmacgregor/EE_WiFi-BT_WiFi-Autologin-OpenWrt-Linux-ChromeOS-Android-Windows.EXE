@@ -1,6 +1,3 @@
-This Is The Main Windows EXE Code, The Rest Is In The Zip File
-------------- DONT COPY THIS & UP --------------
-
 Imports System.Net
 Imports System.Text
 Imports System.IO
