@@ -1,0 +1,39 @@
+#!/bin/sh /etc/rc.common
+
+##############---- TP-Link WR2543 LED Service -----##############
+##############-- By: Aidan Macgregor (May 2022) --###############
+# https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT
+# (Tested On OpenWrt 21.02.03)
+
+START=99
+STOP=1
+PIDFILE=/var/run/LED_Connected.pid
+LOGPATH=$(grep '#LOGPATH=' /etc/rc.local | sed -r 's/^.{9}//')
+
+start() {
+	[ -f $PIDFILE ] && [ ! -d /proc/`cat $PIDFILE` ] && rm $PIDFILE
+	[ -f $PIDFILE ] && exit 1
+	connectled_loop &
+	echo -n $! > $PIDFILE
+}
+
+stop() {
+	kill `cat $PIDFILE`
+	rm $PIDFILE
+	echo 0 > /sys/class/leds/green:usb/brightness
+	/etc/init.d/led restart
+}
+
+connectled_loop(){
+while true
+do
+STATUS=$(ping -q -c 4 -W 1 208.67.222.222 > /dev/null 2>&1 && echo "ok" || echo "FAIL")
+	if [ "$STATUS" = "ok" ]
+	then
+	echo 255 > /sys/class/leds/green:usb/brightness
+		else 
+		echo 0 > /sys/class/leds/green:usb/brightness
+	fi
+sleep 5
+done
+}
