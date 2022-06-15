@@ -75,7 +75,7 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
 	
 ![Install](https://user-images.githubusercontent.com/11254983/173888569-542fbbdd-c7c9-41cf-8411-1eceed69610c.JPG)	
 
-## Autologin Service (System > Stsrtup)
+## Autologin Service (System > Startup)
 	
 ![Startup (3)](https://user-images.githubusercontent.com/11254983/173452552-d591d1c8-edd6-460b-b9bf-39509da5fda1.JPG)
 
