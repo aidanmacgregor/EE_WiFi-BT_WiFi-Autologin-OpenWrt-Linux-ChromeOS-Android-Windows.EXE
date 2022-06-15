@@ -70,13 +70,18 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
 
 <details>
   <summary>Click to expand!</summary>
+
+## Install The tar.gz Files Using LUCI (System > Backup / Flash Firmware)
 	
-## OpenWrt GUI
+![Install](https://user-images.githubusercontent.com/11254983/173888569-542fbbdd-c7c9-41cf-8411-1eceed69610c.JPG)	
+
+## Autologin Service (System > Stsrtup)
 	
 ![Startup (3)](https://user-images.githubusercontent.com/11254983/173452552-d591d1c8-edd6-460b-b9bf-39509da5fda1.JPG)
+
+## Add Your Account (System > Startup > Local Startup)
 	
 ![Local Startup (3)](https://user-images.githubusercontent.com/11254983/173452553-e6a26dde-2d85-478a-9c94-22dde81a19fc.JPG)
-
 
 ## OpenWrt Code & Downloads
     
