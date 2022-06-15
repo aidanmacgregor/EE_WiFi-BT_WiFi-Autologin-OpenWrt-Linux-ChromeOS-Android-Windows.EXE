@@ -19,8 +19,8 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 - BT Log You Out Automatically After 4 Hours (And A Few Seconds)
 - There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) 
 - If Using OpenWrt Restore The Customised Backup Zips & Add Account In LUCI "Local Startup"
-- If Using Windows .NET 4.6+ MAy Be Needed In Windows 8.1 & Older (Should Just Work Windows 10+)
-- If Using Macrodroid Download The Macro & Edit The Variables Drawer To Add Account (May Work With Chrome OS To Test...)
+- If Using Windows .NET 4.6+ May Be Needed With Windows Vista To Windows 8.1 (Should Just Work Windows 10 & Newer)
+- If Using Macrodroid Download The Macro & Edit The Variables Drawer To Add Account (May Work With Chrome OS, Still To Test...)
 - If Using Inside A Linux Script Edit The URL To Include Your Account Info
 
 
