@@ -17,9 +17,11 @@ The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br
 Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Credidetials Every Time<br/>
 
 - BT Log You Out Automatically After 4 Hours (And A Few Seconds)
-- There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested)
-- If Using Inside A Script Edit The URL To Include Your Account Info 
-- If Using Macrodroid (FREE & RECOMMENDED) Download The Macro & Edit The Variables Drawer To Add Account
+- There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) 
+- If Using OpenWrt Restore The Customised Backup Zips & Add Account In LUCI "Local Startup"
+- If Using Windows .NET 4.6+ MAy Be Needed In Windows 8.1 & Older (Should Just Work Windows 10+)
+- If Using Macrodroid Download The Macro & Edit The Variables Drawer To Add Account (May Work With Chrome OS To Test...)
+- If Using Inside A Linux Script Edit The URL To Include Your Account Info
 
 
 
