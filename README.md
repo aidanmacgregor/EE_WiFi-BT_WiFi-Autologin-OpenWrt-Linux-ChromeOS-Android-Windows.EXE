@@ -113,7 +113,7 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
 ![V3UI](https://user-images.githubusercontent.com/11254983/179541302-5e3b679b-de5e-4c58-9e7c-ecf8c7cd0f0c.JPG)
     
 ## Windows Code & Downloads
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Windows)
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Windows%20(.exe))
 
   </details>
  
