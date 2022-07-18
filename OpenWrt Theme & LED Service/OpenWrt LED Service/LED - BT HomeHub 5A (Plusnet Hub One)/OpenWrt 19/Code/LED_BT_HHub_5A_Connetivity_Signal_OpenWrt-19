@@ -1,0 +1,114 @@
+#!/bin/sh /etc/rc.common
+
+##############----- BT HomeHub 5A LED Service -----##############
+##############-- By: Aidan Macgregor (May 2022) --###############
+# https://github.com/aidanmacgregor/BT_Wi-Fi_Autologin_MACRODROID-WISPr-HTTP_POST-HTTP_GET-OpenWRT
+# (Tested On OpenWrt 19.07.10)
+
+############### INFO ###############
+
+# Run This Command To Select Correct Interface
+#	cat /proc/net/wireless | awk {print}
+
+# My Client Mode Connection NR==4 in the RSSI is chosen as im conneccted to AP on wlan1 (See Example Below)
+
+	#	1		Inter-| sta-|   Quality        |   Discarded packets               | Missed | WE
+	#	2		face | tus | link level noise |  nwid  crypt   frag  retry   misc | beacon | 22
+	#	3 		wlan0: 0000     0     0     0        0      0      0      0      0        0
+	# (NR==4)	wlan1: 0000   33.  -77.  -256        0      0      0     15    173        0
+	#	5		wlan1-1: 0000   0     0     0        0      0      0      0      0        0
+
+# Replace Interface Number If Needed On Line Number 67 (Eg. NR==3)
+
+START=99
+STOP=1
+PIDFILESIG=/var/run/LED_Signal.pid
+PIDFILECON=/var/run/LED_Connected.pid
+DSLSTATUS=$(/etc/init.d/dsl_control status)
+LOGPATH=$(grep '#LOGPATH=' /etc/rc.local | sed -r 's/^.{9}//')
+
+start() {
+	echo 255 > /sys/class/leds/dimmed/brightness
+	echo none > /sys/class/leds/bthomehubv5a:blue:wireless/trigger
+	echo none > /sys/class/leds/bthomehubv5a:red:wireless/trigger
+	echo none > /sys/class/leds/bthomehubv5a:green:wireless/trigger
+	echo none > /sys/class/leds/bthomehubv5a:blue:power/trigger
+	echo none > /sys/class/leds/bthomehubv5a:red:power/trigger
+	echo none > /sys/class/leds/bthomehubv5a:green:power/trigger
+	echo none > /sys/class/leds/bthomehubv5a:blue:broadband/trigger
+	echo none > /sys/class/leds/bthomehubv5a:red:broadband/trigger
+	echo none > /sys/class/leds/bthomehubv5a:green:broadband/trigger
+	[ -f $PIDFILESIG ] && [ ! -d /proc/`cat $PIDFILESIG` ] && rm $PIDFILESIG
+	[ -f $PIDFILESIG ] && exit 1
+	signal_loop &
+	echo -n $! > $PIDFILESIG
+	[ -f $PIDFILECON ] && [ ! -d /proc/`cat $PIDFILECON` ] && rm $PIDFILECON
+	[ -f $PIDFILECON ] && exit 1
+	connectled_loop &
+	echo -n $! > $PIDFILECON
+		if [ "$DSLSTATUS" = "running" ]
+		then
+		echo "$(date) BT HomeHub BT Wi-Fi LED Service - Disabled DSL Control For Stability" >> $LOGPATH
+		logger -t BT_HomeHub BTWi-fi LED Service "$(date) Disabled DSL Control For Stability"
+		/etc/init.d/dsl_control stop
+		/etc/init.d/dsl_control disable
+		fi
+}
+
+stop() {
+	kill `cat $PIDFILESIG`
+	kill `cat $PIDFILECON`
+	rm $PIDFILESIG
+	rm $PIDFILECON
+	echo 0 > /sys/class/leds/bthomehubv5a:blue:wireless/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:red:power/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:blue:broadband/brightness
+	echo 0 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
+	/etc/init.d/led restart
+}
+
+signal_loop(){
+while true
+do	#Add Your Interface Number (Eg. 'awk NR==3 {print $4}' ")
+RSSI=`cat /proc/net/wireless | awk 'NR==4 {print $4}' | sed 's/\.//'`
+    if [ -z $RSSI ] || [ $RSSI -ge 0 ]; then
+		echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+        echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+    elif [ $RSSI -ge -65 ] ; then
+		echo 0 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+        echo 255 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+		sleep 2
+    elif [ $RSSI -ge -70 ] ; then
+        echo 255 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+		sleep 2
+    elif [ $RSSI -ge -75 ] ; then
+        echo 255 > /sys/class/leds/bthomehubv5a:red:wireless/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:green:wireless/brightness
+    fi
+	sleep 1
+done
+}
+
+connectled_loop(){
+while true
+do
+STATUS=$(ping -q -c 4 -W 1 208.67.222.222 > /dev/null 2>&1 && echo "ok" || echo "FAIL")
+	if [ "$STATUS" = "ok" ]
+	then
+		echo 255 > /sys/class/leds/bthomehubv5a:blue:power/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:red:power/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
+	else
+		echo 0 > /sys/class/leds/bthomehubv5a:green:broadband/brightness
+		echo 0 > /sys/class/leds/bthomehubv5a:blue:power/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:red:power/brightness
+		echo 255 > /sys/class/leds/bthomehubv5a:red:broadband/brightness
+	fi
+sleep 5
+done
+}
