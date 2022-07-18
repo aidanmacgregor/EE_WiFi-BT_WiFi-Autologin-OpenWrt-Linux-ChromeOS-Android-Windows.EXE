@@ -1,0 +1,22 @@
+####### BTWi-Fi Autologin Service Add Your Account
+# 	Add Your Email & Password In The "USERNAME" & ""PASSWORD" Area
+####### Account Types (Add in settings section)
+# 	1 = BT Home Broadband
+# 	2 = BT Business Broadband
+# 	3 = BT Wi-Fi Account
+
+####### Settings
+#ACCTYPE=1
+#USERNAME=example@example.com
+#PASSWORD=PWexample123
+
+####### Optional Settings (Or Leave As Defaults)
+#LOGSIZE=40
+#PING1DNS=8.8.8.8
+#PING2URL=neverssl.com
+#LOGPATH=/BTWi-fi_Autologin_Service_LOG.txt
+
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+exit 0
