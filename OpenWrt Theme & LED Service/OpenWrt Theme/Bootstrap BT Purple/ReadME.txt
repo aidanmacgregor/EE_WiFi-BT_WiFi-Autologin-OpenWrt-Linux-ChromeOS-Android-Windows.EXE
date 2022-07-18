@@ -1,1 +1,0 @@
-Bootstrap Theme Is The Default Theme & Is Included With LUCI, Restore The Backup Archive According To OpenWrt Version
