@@ -151,7 +151,7 @@ Settings & Information Here<br/>
   <summary>Click to expand!</summary>
 <br/>
     	
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Android/BT%20Wi-Fi%20Autologin%20(Macrodroid)%20(Android))
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Android%20(Macrdroid))
     
 ![Screenshot_20220502-190512_MacroDroid](https://user-images.githubusercontent.com/11254983/166310114-93b22ec4-a938-4d44-bcac-19ca1ae5f7ff.jpg)
   
@@ -189,7 +189,7 @@ This is a shell script to automate the sign in and always remain connected to BT
 ![WSL2](https://user-images.githubusercontent.com/11254983/173451001-cce58162-7475-4322-9744-fb842ce40209.JPG)
 
 ## Linux Code & Download
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Linux)
+[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Linux%20(Bash))
     
  </details>
 
