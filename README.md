@@ -1,4 +1,4 @@
-# BTWi-fi Autologin (OpenWrt Service) (Windows.exe) (BASH Script.sh) (Android Macrodroid) (WISPr URL) (HTTP-POST) (HTTP-GET)
+# BTWi-fi Autologin (OpenWrt Service) (Windows.exe) (BASH Script.sh) (Android & Chrome OS Macrodroid) (WISPr URL) (HTTP-POST) (HTTP-GET)
 
 ![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) OpenWrt Script Has Now Been Replaced With A Service (v3) </br>
 
@@ -20,7 +20,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 - There Are 4 URLs, (HTTP GET May Only Work With Home Broadband, Others Untested) 
 - If Using OpenWrt Restore The Customised Backup Zips & Add Account In LUCI "Local Startup"
 - If Using Windows .NET 4.6+ May Be Needed With Windows Vista To Windows 8.1 (Should Just Work Windows 10 & Newer)
-- If Using Macrodroid Download The Macro & Edit The Variables Drawer To Add Account (May Work With Chrome OS, Still To Test...)
+- If Using Macrodroid Download The Macro & Edit The Variables Drawer To Add Account (Work With Chrome OS)
 - If Using Inside A Linux Script Edit The URL To Include Your Account Info
 
 
@@ -108,12 +108,26 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
 
 <details>
   <summary>Click to expand!</summary>
-	
-## Windows GUI
-![V3UI](https://user-images.githubusercontent.com/11254983/179541302-5e3b679b-de5e-4c58-9e7c-ecf8c7cd0f0c.JPG)
-    
+  
+  ## Windows GUI
+![BT Wi-Fi Windows App](https://user-images.githubusercontent.com/11254983/184173045-f6e5ce51-4128-44fb-9964-eadcf718cf71.png)
+  
+## Features:
+
+ - New UI Design [[NEW v4]]
+ - Automatic Login To UK Wide BT Wi-Fi Hotspots
+ - Close Will Minimise To Tray (Exit By Using Right Click On Tray Icon, This WONT Run The Log Out URL, If Log Out Is Needed Thet Stop Service First) [[NEW v4]]
+ - Tray Icom Changes (Red & Green) To Reflect Current Internet Status Status (Reccomend Dragging Moving It To always Show Next To Wi-Fi Icom) [[NEW v4]]
+ - Auto Run Regestery Key & Start Service At Boot Option
+ - Saves State & Settings Instsantly When Changing Allowing For Rebbot etc... Without loosing Settingd [[NEW v4]]
+ - Http Response Based Sucsess Check Text Box (Indicates Login Sucsess, No Bt Wi-Fi/Internet, Wrong Username OR Password/Account Type)
+ - BT Wi-Fi Map Link Included [[NEW v4]]
+ - Status Indicators For Running & Internet
+ - Logoff URL is Run On Stop Service (About 10 Second Delay On BT Side Fr Logout To Stop Internet)
+ - HTTP Post Request Used For Login & Logout
+
 ## Windows Code & Downloads
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Windows%20(.exe))
+[Login Service](https://github.com/aidanmacgregor/BT-Wi-Fi-Autologin-Windows)
 
   </details>
  
@@ -122,13 +136,13 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
  
  
  
- # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+)<br/>
+ # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+ & Chrome OS)<br/>
 Automatic Login From An Android Device, With Alway Online, Charging Only Mode, Track The Number Of Logins & See How To Set Android Up As Wi-Fi Repeater 
 
 <details>
   <summary>Click to expand!</summary>
 
-## Template Availible In The Macrodroid Template Store!
+## Downoad From Play Store Template Availible In The Macrodroid Template Store!
 
 ![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
  <br/>
