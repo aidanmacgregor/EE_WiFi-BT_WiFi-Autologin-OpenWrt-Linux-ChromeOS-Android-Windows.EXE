@@ -123,6 +123,7 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
  - Http Response Based Sucsess Check Text Box (Indicates Login Sucsess, No Bt Wi-Fi/Internet, Wrong Username OR Password/Account Type)
  - BT Wi-Fi Map Link Included [[NEW v4]]
  - Status Indicators For Running & Internet
+ - Login Count
  - Logoff URL is Run On Stop Service (About 10 Second Delay On BT Side Fr Logout To Stop Internet)
  - HTTP Post Request Used For Login & Logout
 
