@@ -96,7 +96,7 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
   </details>
 
 
-  
+<br/>   
   
   
   
@@ -136,8 +136,7 @@ Windows Vista, 7, 8 & 8.1 Needs .net 4.6 to be manually installed
   </details>
  
  
- 
- 
+ <br/>   
  
  
  # ![MacroDroid_forum_48](https://user-images.githubusercontent.com/11254983/164982041-be7d0dd7-5c9a-4b24-a5a4-4e8f82a17bc5.png) Macrodroid Autologin Setup (Android 5.0+ & Chrome OS)<br/>
@@ -171,25 +170,11 @@ Settings & Information Here<br/>
 <br/>
 
    </details>	
-		
-## Android Wi-Fi Repeater
-<details>
-  <summary>Click to expand!</summary>
-<br/>
-Wi-Fi Sharing Android (Dont Forget To Set A Password)<br/>
-<br/>
-	
-![Screenshot_20220505-215917_Settings](https://user-images.githubusercontent.com/11254983/167026350-4fd79afb-2073-438e-83e2-5dca2778b921.png)
-  
-<br/>
-
+   
    </details>
 	</details>
 
-
-
-
-
+<br/>
 
 # ![48 terminal-icon copy](https://user-images.githubusercontent.com/11254983/164985283-235c64c3-415e-4cb1-8ce9-8967c23add8e.png) Linux Bash Script
 
@@ -205,11 +190,8 @@ This is a shell script to automate the sign in and always remain connected to BT
 [Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Linux%20(Bash))
     
  </details>
-
-
-
-
-
+ 
+ <br/>
 
 # ![48 http copy 2](https://user-images.githubusercontent.com/11254983/164985125-01ad4452-6b6a-42e7-94d5-a04020e1ded5.png) Autologin URLs (HTTP POST & HTTP GET)
 
@@ -225,7 +207,7 @@ The RAW URLs the BT Service Uses To Login
     HTTP POST URLs, These Should Work With All Account Types
 
 ### ![48 green icon](https://user-images.githubusercontent.com/11254983/164984530-03352fa6-2b61-427a-b92c-911b60fee1bb.png) Secure HTTP POST (With SSL Certificate) <br/>
-(Normal Login, Does NOT Work With Other DNS Settings EG. Google DNS)<br/>
+(Normal Login, Does NOT Work With Other DNS Settings EG. Google DNS)c
 
 - BT Home Broadband:
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/tbbLogon
@@ -235,6 +217,8 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
   
 - BT Buisness Broadband:
 wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWORD" https://www.btwifi.com:8443/ante?partnerNetwork=btb
+	
+<br/>
 
 ### ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP POST (Must Allow Any Certificate) <br/>
 (SSL Error, Works With Other DNS Settings EG. Google DNS)
@@ -250,7 +234,7 @@ wget -O /dev/null --post-data "username=USERNAME@btinternet.com&password=PASSWOR
 
 </details>
 
-    
+<br/>    
 	
 ## HTTP GET (Browser URL bar)
 <details>
@@ -271,10 +255,7 @@ https://192.168.23.21:8443/wbacOpen?username=USERNAME@btinternet.com&password=PA
   </details>
 </details>
 
-
-
-
-
+<br/>   
 
 
 # ![48 logoffpng](https://user-images.githubusercontent.com/11254983/164995694-4273493d-8bb6-4df4-91b4-ba90b926ce6c.png) Logoff (HTTP GET & Browser URL) <br/>
@@ -297,11 +278,7 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 </details>
 
-  
-  
-  
-  
-  
+<br/>   
   
 # ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Rebind Protection & Alternatave DNS (Safesearch Remove)
  Useful Info (OpenWrt Guide Already Included These Steps)
@@ -326,3 +303,6 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
  ![dhcp options](https://user-images.githubusercontent.com/11254983/173432775-b3fa400d-aca2-465f-9096-86213073847f.JPG)
 
 </details>
+
+<br/>
+
