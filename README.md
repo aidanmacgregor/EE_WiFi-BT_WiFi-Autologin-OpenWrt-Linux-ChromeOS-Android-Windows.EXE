@@ -87,7 +87,7 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
 
 ## OpenWrt Code & Downloads
     
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20OpenWrt%20(Service))
+[Login Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWRT)
     
 [LED Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWRT/tree/main/OpenWrt%20Themes%20%26%20LED%20Service/OpenWrt%20LED%20Service)
     
@@ -165,7 +165,7 @@ Settings & Information Here<br/>
 	
 ## Android Code & Downloads
 
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Android%20(Macrdroid))
+[Login Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_Android_ChromeOS_Macrodroid)
 
    </details>	
    
@@ -185,7 +185,7 @@ This is a shell script to automate the sign in and always remain connected to BT
 ![WSL2](https://user-images.githubusercontent.com/11254983/173451001-cce58162-7475-4322-9744-fb842ce40209.JPG)
 
 ## Linux Code & Download
-[Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Linux%20(Bash))
+[Login Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_Linux)
     
  </details>
  
