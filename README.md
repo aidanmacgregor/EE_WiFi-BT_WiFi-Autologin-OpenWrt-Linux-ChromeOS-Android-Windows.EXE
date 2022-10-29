@@ -89,9 +89,9 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
     
 [Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20OpenWrt%20(Service))
     
-[LED Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/OpenWrt%20Theme%20%26%20LED%20Service/OpenWrt%20LED%20Service)
+[LED Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWRT/tree/main/OpenWrt%20Themes%20%26%20LED%20Service/OpenWrt%20LED%20Service)
     
-[Themes](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/OpenWrt%20Theme%20%26%20LED%20Service/OpenWrt%20Theme)
+[Themes](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWRT/tree/main/OpenWrt%20Themes%20%26%20LED%20Service/OpenWrt%20Theme)
     
   </details>
 
@@ -197,6 +197,8 @@ The RAW URLs the BT Service Uses To Login
 
 <details>
   <summary>Click to expand!</summary>
+	
+<br/>
   
 ## HTTP POST
 <details>
