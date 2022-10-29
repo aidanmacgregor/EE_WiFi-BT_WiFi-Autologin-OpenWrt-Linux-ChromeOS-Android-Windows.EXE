@@ -166,8 +166,6 @@ Settings & Information Here<br/>
 ## Android Code & Downloads
 
 [Login Service](https://github.com/aidanmacgregor/BT_Wi-fi_Autologin_-_OpenWrt_Windows.EXE_Linux_Android-Macrodroid/tree/main/BT%20Wi-Fi%20Autologin%20Service/Login%20Service%20Android%20(Macrdroid))
-  
-<br/>
 
    </details>	
    
