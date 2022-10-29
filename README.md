@@ -63,7 +63,6 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT BTWi-fi YouTube Guide<br/>
 Updated Video Planned Soon!
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z7pTcrwUQkU/0.jpg)](https://www.youtube.com/watch?v=z7pTcrwUQkU)
 <br/>
 
 
