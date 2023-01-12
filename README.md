@@ -305,5 +305,5 @@ https://192.168.23.21:8443/accountLogoff/home?confirmed=true
 
 <br/>
 
-Tags: BT Wifi login, BT Wifi autologin, btwifi login, BTWi-fi login, BTWi-fi autologin, BTWi-fi Service, BTWi-fi Script
+Tags: BT Wifi login, BT Wifi autologin, btwifi login, BTWi-fi login, BTWi-fi autologin, BTWi-fi Service, BTWi-fi Script, bt wifi login
 
