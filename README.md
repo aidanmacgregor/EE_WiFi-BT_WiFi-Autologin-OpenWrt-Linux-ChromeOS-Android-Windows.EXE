@@ -1,10 +1,8 @@
-# BTWi-fi Autologin (OpenWrt Service) (Windows.exe) (BASH Script.sh) (Android & Chrome OS Macrodroid) (WISPr URL) (HTTP-POST) (HTTP-GET)
+# BTWi-fi (EE WiFi) Autologin (OpenWrt Service) (Windows.exe) (BASH Script.sh) (Android & Chrome OS Macrodroid) (WISPr URL) (HTTP-POST) (HTTP-GET)
 
-![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) OpenWrt Script Has Now Been Replaced With A Service (v3) </br>
+## ![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) BT Wi-Fi is becoming EE WiFi. We'll be getting a new look and network name shortly. When you see the "EE WiFi" network you can connect to this in the same way you currently use "BTWi-fi </br>
 
-(Install The Archive.tar.gz From LUCI > Backup & Change Settings From LUCI > Startup > Local Startup) </br>
-
-
+### (Install The Archive.tar.gz From LUCI > Backup & Change Settings From LUCI > Startup > Local Startup) </br>
 
 ### General Information
 The BT Wi-Fi Service Comes With Several Options To Gain Access To The Network<br/>
