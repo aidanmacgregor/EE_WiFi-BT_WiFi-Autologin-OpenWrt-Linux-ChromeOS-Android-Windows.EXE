@@ -23,7 +23,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 
 
 
-### SSIDs:
+## SSIDs:
 (Pulled From APK, No longer in partnership with Fon as of 2020, Most Hotspots Now Branded BTWi-fi)
 
 - BTWi-fi 
@@ -38,7 +38,7 @@ Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Cr
 
 
 
-### Testing Results
+## Testing Results
 Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With OpenWRT Configured in Client & Access Point Mode (Windows Direct BT Wi-Fi Connection)
 
 - This allows one device to sign in every device inside my network <br/>
@@ -47,7 +47,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 
 
 
-### Speeds For Me: (You Will Vary)
+## Speeds For Me: (You Will Vary)
 
 - Ping Approx. 30ms <br/>
 - Download 40-60 Mbps <br/>
@@ -70,19 +70,19 @@ Set Up OpenWrt With BTWi-fi & The Autologin Service, THEME & LED Service Also Av
 <details>
   <summary>Click to expand!</summary>
 
-## Install The tar.gz Files Using LUCI (System > Backup / Flash Firmware)
+### Install The tar.gz Files Using LUCI (System > Backup / Flash Firmware)
 	
 ![Install](https://user-images.githubusercontent.com/11254983/173888569-542fbbdd-c7c9-41cf-8411-1eceed69610c.JPG)	
 
-## Autologin Service (System > Startup)
+### Autologin Service (System > Startup)
 	
 ![Startup (3)](https://user-images.githubusercontent.com/11254983/173452552-d591d1c8-edd6-460b-b9bf-39509da5fda1.JPG)
 
-## Add Your Account (System > Startup > Local Startup)
+### Add Your Account (System > Startup > Local Startup)
 	
 ![Local Startup (3)](https://user-images.githubusercontent.com/11254983/173452553-e6a26dde-2d85-478a-9c94-22dde81a19fc.JPG)
 
-## OpenWrt Code & Downloads
+### OpenWrt Code & Downloads
     
 [Login Service](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWRT)
     
