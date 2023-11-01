@@ -53,7 +53,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 - Upload Approx 11-17 Mbps<br/>
 
 ## My Network Topology (OpenWrt):
-![My Network NEW](https://github.com/aidanmacgregor/EE_WiFi-BT_WiFi-Autologin-OpenWrt-Linux-ChromeOS-Android-Windows.EXE/assets/11254983/62d14cd3-e1a1-43cd-880b-860d3fa2d3ae)
+![My Network NEW 2](https://github.com/aidanmacgregor/EE_WiFi-BT_WiFi-Autologin-OpenWrt-Linux-ChromeOS-Android-Windows.EXE/assets/11254983/7b0e7688-7e9c-4112-8a4f-b129276306d4)
 
 # ![youtube-logo-png-46026](https://user-images.githubusercontent.com/11254983/164994883-0a78494e-ae24-4eee-bdbe-a165a7c7d890.png) OpenWRT EE WiFi (BTWi-fi) YouTube Guide
 - Updated Video Planned Soon!
