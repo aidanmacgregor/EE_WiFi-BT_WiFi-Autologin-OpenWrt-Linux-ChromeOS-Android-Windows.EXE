@@ -6,12 +6,12 @@
 
 
 ## General Information
-The EE WiFi (BTWi-fi) Service Comes With Several Options To Gain Access To The Network<br/>
+The EE WiFi (BT Wi-Fi) Service Comes With Several Options To Gain Access To The Network<br/>
 
 - Pay & Go On Demand (1 Hour To 30 Days)
-- (No Longer Available) Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)
-- As a BT or EE Broadband & BT Mobile Customers (EE/BT Broadband and BT Mobile customers get free, unlimited access to the EE WiFi network)
-- FON (No longer in partnership with Fon as of 2020)
+- BT or EE Broadband & BT Mobile Customers (EE/BT Broadband & BT Mobile customers get free, unlimited access to the EE WiFi network)
+- ~~Pay & Go Subscription (3 OR 12 Months Up To 5 Devices Online, 5 People Could Split 12 Months and pay £3 Each Per Month)~~ (No Longer Available 2023)
+- ~~FON Account~~ (No longer in partnership with Fon as of 2020)
 
 Therse Are The URLs I Have Found To Login Without Loading A Webpage OR Typing Credidetials Every Time<br/>
 
