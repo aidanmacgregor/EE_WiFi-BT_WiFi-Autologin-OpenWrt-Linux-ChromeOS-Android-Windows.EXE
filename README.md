@@ -6,6 +6,10 @@
 
 
 ## General Information
+
+- Jan 2024: "The BT Wi-Fi App Is Being Removed, Access to EE Wi-Fi Still Available via Web Browser" (Or Use My Macrodroid Script)
+- Jan 2024: Most Hotspots now "EE WiFi" My parents are still running "BTWiFi" on their BT HomeHub 3 (Seems no more updates to this router)
+
 The EE WiFi (BT Wi-Fi) Service Comes With Several Options To Gain Access To The Network<br/>
 
 - Pay & Go On Demand (1 Hour To 30 Days)
