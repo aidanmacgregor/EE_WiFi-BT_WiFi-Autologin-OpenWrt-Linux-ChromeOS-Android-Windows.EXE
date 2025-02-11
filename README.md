@@ -303,30 +303,37 @@ wget --no-check-certificate -O /dev/null --post-data "username=EMAIL&password=PA
 </details><br/>
 
 
-# ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Rebind Protection & Alternatave DNS (Safesearch Remove)
- 
- <details>
+# ![48 Yellow Info](https://user-images.githubusercontent.com/11254983/164985697-861a5a64-e88a-4279-a317-13859676e50e.png) Remove Forced Safesearch & Content Filtering (DNS)
+<details>
   <summary>Click to expand!</summary><br/>
-
-- Useful Info (OpenWrt Guide Already Included These Steps)<br/>
-
-- Rebind Protection Needs To Be "OFF" To Load The Login Page Using Browser "btwifi.com:8443"
-- To Use Rebind Protection "ON" (OpenWrt Default) Use The Insecure URLs (Cert Warning) "192.168.23.21:8443"
 
 ## Im Using Google DNS on the internal network To Remove Forced Google Safe Search
 
-- Chose Network > Interfaces From The Menu
-- EDIT the LAN Interface<br/>
-
-![Interfaces](https://user-images.githubusercontent.com/11254983/173432696-46497af9-22af-4df6-99eb-12e17bb6f4b9.JPG)
-
-- Open DHCP Server Tab, Advanced, Under DHCP-Options ADD
+- Interface > br-lan (Edit) > DHCP Server > Advanced Settings<br/>
+- Change The Setting "DHCP-Options" to
 ```
 6,8.8.8.8,8.8.4.4
 ```
- ![dhcp options](https://user-images.githubusercontent.com/11254983/173432775-b3fa400d-aca2-465f-9096-86213073847f.JPG)
+- Interface > wwan (Edit) > Advanced Settings
+- Use DNS servers advertised by peer
+```
+(uncheck)
+```
+- Use custom DNS servers 
+```
+8.8.8.8
+8.8.4.4
+```
 
 </details><br/>
 
+# Troubleshooting
+<details>
+  <summary>Click to expand!</summary><br/>
+	
+- Rebind Protection Needs To Be "OFF" To Load The Login Page Using Browser "btwifi.com:8443"
+- To Use Rebind Protection "ON" (OpenWrt Default) Use The Insecure URLs (Cert Warning) "192.168.23.21:8443"
+
+</details><br/>
 
 Tags: BT Wifi login, BT Wifi autologin, btwifi login, BTWi-fi login, BTWi-fi autologin, BTWi-fi Service, BTWi-fi Script, bt wifi login
