@@ -71,16 +71,16 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 
 
 ### ![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) Install The tar.gz Files Using LUCI (System > Backup / Flash Firmware)
-	
-![Install](https://user-images.githubusercontent.com/11254983/173888569-542fbbdd-c7c9-41cf-8411-1eceed69610c.JPG)	
+
+![1-UPLOAD ARCHIVE](https://github.com/user-attachments/assets/9d1fca5f-ab1e-4474-b9a6-fe8849483390)
 
 ### Autologin Service (System > Startup)
 	
-![Startup (3)](https://user-images.githubusercontent.com/11254983/173452552-d591d1c8-edd6-460b-b9bf-39509da5fda1.JPG)
+![2-ENABLE SERVICE COMBINE](https://github.com/user-attachments/assets/bacf534c-cfa1-499e-9950-d74a34927299)
 
 ### Add Your Account (System > Startup > Local Startup)
 	
-![Local Startup (3)](https://user-images.githubusercontent.com/11254983/173452553-e6a26dde-2d85-478a-9c94-22dde81a19fc.JPG)
+![3-ADD ACCOUNT](https://github.com/user-attachments/assets/9458ae35-9105-417f-bd93-bd3e810b908c)
 
 ### ![10254536-48](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWrt_Linux_ChromeOS_Android_Macrodroid_Windows.EXE/assets/11254983/60b4e9d1-52d9-4805-882f-16e90f6f60a4) OpenWrt Code & Downloads
     
@@ -104,7 +104,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 - First Attempt At Making Windows Software
 
 ## Windows GUI
-![BT Wi-Fi Windows App](https://user-images.githubusercontent.com/11254983/184173045-f6e5ce51-4128-44fb-9964-eadcf718cf71.png)
+![WINDOWS SOFTWARE](https://github.com/user-attachments/assets/fe6d8bdc-502a-4586-9e3b-e64d5cf8ab34)
   
 ## ![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) Features:
 - New UI Design [[NEW v4]]
@@ -135,7 +135,7 @@ Tested In A Home Internet Replacment Setting, using BT Home Hub 5 Flashed With O
 
 ## ![48 info](https://user-images.githubusercontent.com/11254983/166980034-691be097-a101-43bb-b44e-646f04299b87.png) Downoad From Play Store Template Availible In The Macrodroid Template Store!
 
-![Screenshot_20220502-194637_MacroDroid](https://user-images.githubusercontent.com/11254983/166310061-5c8bb11f-a9ec-429a-aa6c-8796fb5f5a72.jpg)
+![md1](https://github.com/user-attachments/assets/2d082397-7a5d-4bbc-9823-c677699cda61)
   
 ## Macrodroid GUI (Edit Settings & Add Account Here)
 <details>
@@ -144,7 +144,9 @@ Settings & Information Here
 <br/>
 <br/>
 	  
-![3  Screenshot_20220415-230400_MacroDroid_copy_640x1422](https://user-images.githubusercontent.com/11254983/163649231-921d6e70-86e0-46d0-8064-635d2b450ab8.png) <br/>
+ ![md2](https://github.com/user-attachments/assets/c3c22154-4c49-40d6-be07-bb7ae72f1b1f)
+
+ <br/>
  </details><br/>
 	
 ## ![10254536-48](https://github.com/aidanmacgregor/BTWi-Fi_Autologin_-_OpenWrt_Linux_ChromeOS_Android_Macrodroid_Windows.EXE/assets/11254983/60b4e9d1-52d9-4805-882f-16e90f6f60a4) Android Code & Downloads
@@ -262,18 +264,24 @@ wget --no-check-certificate -O /dev/null --post-data "username=EMAIL&password=PA
 ### ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure HTTP GET (With SSL Certificate)
 
 (Normal Login, Does NOT Work With Other DNS Settings EG. Google DNS) <br/>
-
+```
 - https://www.btwifi.com:8443/wbacOpen?username=EMAIL&password=PASSWORD
+```
+```
 - https://ee-wifi.ee.co.uk/wbacOpen?username=EMAIL&password=PASSWORD
-
+```
 ### ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure HTTP GET (Must Allow Any Certificate)
 
 (SSL Error in Browser, Works With Other DNS Settings EG. Google DNS) <br/>
-
+```
 - https://192.168.23.21:8443/wbacOpen?username=EMAIL&password=PASSWORD
+```
+```
 - https://217.39.0.50/wbacOpen?username=EMAIL&password=PASSWORD
+```
+```
 - https://109.144.192.50/wbacOpen?username=EMAIL&password=PASSWORD
-
+```
  
   </details>
 </details><br/>
@@ -288,18 +296,24 @@ wget --no-check-certificate -O /dev/null --post-data "username=EMAIL&password=PA
 ### ![48 green icon](https://user-images.githubusercontent.com/11254983/164993018-7814c4d6-baee-4602-aae1-a9def39702cd.png) Secure Page
 
 (Normal Logoff, Does NOT Work With Other DNS Settings EG. Google DNS) <br/>
-
+```
 - https://www.btwifi.com:8443/accountLogoff/home?confirmed=true
+```
+```
 - https://ee-wifi.ee.co.uk/accountLogoff/home?confirmed=true
-
+```
 ### ![48 red icon](https://user-images.githubusercontent.com/11254983/164984548-c5ebaa6f-e76a-4752-8700-ed836cc31165.png) Insecure
     
 (SSL Error in Browser, Works With Other DNS Settings EG. Google DNS) <br/>
-
+```
 - https://192.168.23.21:8443/accountLogoff/home?confirmed=true
+```
+```
 - https://217.39.0.50/accountLogoff/home?confirmed=true
+```
+```
 - https://109.144.192.50/accountLogoff/home?confirmed=true
-
+```
 </details><br/>
 
 
@@ -307,23 +321,29 @@ wget --no-check-certificate -O /dev/null --post-data "username=EMAIL&password=PA
 <details>
   <summary>Click to expand!</summary><br/>
 
-## Im Using Google DNS on the internal network To Remove Forced Google Safe Search
-
-- Interface > br-lan (Edit) > DHCP Server > Advanced Settings<br/>
+## Interface > br-lan (Edit) > DHCP Server > Advanced Settings<br/>
 - Change The Setting "DHCP-Options" to
 ```
 6,8.8.8.8,8.8.4.4
 ```
-- Interface > wwan (Edit) > Advanced Settings
+
+![LAN DHCP OPTIONS](https://github.com/user-attachments/assets/616c77bf-9cf9-45ed-9fe3-b6cc821f9fff)
+
+## Interface > wwan (Edit) > Advanced Settings
 - Use DNS servers advertised by peer
 ```
 (uncheck)
 ```
+
 - Use custom DNS servers 
 ```
 8.8.8.8
+```
+```
 8.8.4.4
 ```
+
+![WWAN DNS SETTINGS](https://github.com/user-attachments/assets/a58577a6-2ea3-41cd-bd0f-daa7b4e0304a)
 
 </details><br/>
 
